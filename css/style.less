@@ -1,0 +1,302 @@
+@import 'palette.less';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p,
+blockquote,
+small,
+em {
+    font-family: 'Noto Serif', serif;
+}
+
+/* Navigation section */
+
+.navbar {
+    background: @dark;
+    display: flex;
+    padding: 1rem;
+    color: @white;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-items,
+.navbar {
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-items {
+    display: none;
+}
+
+.navbar-link-brand {
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    max-width: 3.5rem;
+}
+
+.navbar-link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    color: @white;
+    padding: .8rem 1rem;
+}
+
+.navbar a,
+.navbar a:hover {
+    text-decoration: none;
+    color: @white; // padding: 0.5rem 1rem;
+    font-weight: 600;
+}
+
+.nav-item .nav-link a {
+    padding: 0;
+}
+
+// jQuery CSS for navigation dropdown open/close
+.navbar-items.open {
+    height: auto;
+    display: flex;
+    align-self: flex-start;
+    padding: 0 1rem;
+}
+
+.navbar-items.open li {
+    display: block;
+    padding-top: .5rem;
+}
+
+.navbar-items.close {
+    height: 0;
+    padding-top: 0;
+}
+
+.navbar-items.close li {
+    display: none;
+}
+
+.hero-area {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        color: #000;
+        font-size: 3em;
+        font-weight: 700;
+        /* position: absolute; */
+        text-shadow: 2px 3px #ffffff80;
+    }
+}
+
+/* .overlay-text {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 2em;
+    width: auto;
+} */
+
+.intro {
+    background-color: @light;
+    h2 {
+        font-size: 2em;
+        text-align: center;
+        padding: 1.5em;
+    }
+    p {
+        font-size: 1.2em;
+        margin: auto;
+        max-width: 80%;
+        padding-bottom: 2em;
+        line-height: 1.3;
+    }
+}
+
+.thumbs {
+    background-color: @light;
+    display: grid;
+    a {
+        display: grid;
+        justify-items: center;
+        text-decoration: none;
+        padding-top: 1.5em;
+    }
+    h2 {
+        color: @white;
+        font-size: 2em;
+        padding: .5em 0 .3em;
+        font-weight: 600;
+        &:hover {
+            color: @orange;
+            opacity: 1;
+        }
+    }
+    img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.overlay-text {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    display: grid;
+    justify-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000ea;;
+}
+
+.overlay-text:hover {
+    opacity: .9;
+    z-index: 10;
+}
+
+.overlay:hover {
+    opacity: .9;
+    z-index: 1;
+}
+
+.on-hover {
+    color: @light;
+    font-size: 1.5em;
+    position: absolute;
+    top: 35%; // left: 50%;
+    // transform: translate(-50%, -50%);
+    // -ms-transform: translate(-50%, -50%);
+    // // text-align: center;
+    opacity: 1;
+}
+
+.p-on-hover {
+    color: @light;
+    position: absolute;
+    top: 50%; // left: 50%;
+    // transform: translate(0%, -70%);
+    // -ms-transform: translate(0%, -70%);
+    padding: 2rem;
+    opacity: 1;
+}
+
+footer {
+    background: @black;
+    p {
+      color: @white;
+      text-align: center;
+    }
+    h4 {
+      color: @white;
+      padding-top: .7rem;
+      text-align: center;
+    }
+    .svg-inline--fa {
+      display: inline-block;
+      padding: 0.2rem 0.5rem;
+      font-size: 3rem;
+    }
+    .icon img {
+      display: block;
+      border-radius: 0.5rem;
+      max-width: 50%;
+      margin: 0 auto;
+    }
+    .icon a {
+      display: block;
+      text-align: center;
+      color: @white;
+      &:hover {
+        color: @orange;
+        text-decoration: none;
+      }
+    }
+  }
+
+@media (min-width: 600px) {
+    .navbar-link-toggle {
+        display: none;
+    }
+    .navbar-items,
+    .navbar {
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-item {
+        display: flex;
+        padding: 0 1rem;
+    }
+    .nav-link {
+        padding: 0;
+    } // Removes padding from their div.
+    .navbar-link-brand {
+        padding: 0.5rem 1rem;
+    } // Restores padding to this one item.
+    .description p {
+        max-width: 50%;
+    }
+    .about .desc {
+        border-left: 4px solid #456789;
+        padding: 1em;
+    }
+    .thumbs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-column-gap: .8em; */
+        // grid-gap: 1.2em;
+        a {
+            padding-top: 1em;
+            padding-bottom: 1em;
+            h2 {
+                text-align: center;
+            }
+            img {
+                margin: 1em;
+            }
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .thumbs {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
