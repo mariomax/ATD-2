@@ -10,9 +10,9 @@
         <li class="nav-item">
             <a class="nav-link" data-value="about" href="#about">About</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
             <a class="nav-link" data-value="process" href="#process">Process</a>
-        </li>
+        </li> -->
         <li class="nav-item">
             <a class="nav-link" data-value="contact" href="#contact">Contact</a>
         </li>
