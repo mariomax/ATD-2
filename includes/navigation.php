@@ -5,7 +5,7 @@
     </div>
     <ul class="navbar-nav navbar-items">
         <li class="nav-item">
-            <a class="nav-link" data-value="work" href="#work">Work</a>
+            <a class="nav-link" data-value="portfolio" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" data-value="about" href="#about">About</a>

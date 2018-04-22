@@ -3,6 +3,17 @@ File Name: palette.css
 Date: 4/20/18 - revised!
 Programmer: Mario Lopriore
 */
+/* Global fix for Bootstrap 4 skew */
+html {
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
 h1,
 h2,
 h3,
@@ -37,7 +48,7 @@ em {
 .navbar-link-brand {
   align-self: flex-start;
   padding: 0.5rem 1rem;
-  max-width: 3.5rem;
+  max-width: 3rem;
 }
 .navbar-link-toggle {
   align-self: flex-end;
@@ -51,6 +62,12 @@ em {
   text-decoration: none;
   color: #FFF;
   font-weight: 600;
+  font-size: 1.1rem;
+}
+.navbar a:hover,
+.navbar a:hover:hover {
+  color: #20557D;
+  font-weight: 600;
 }
 .nav-item .nav-link a {
   padding: 0;
@@ -58,8 +75,9 @@ em {
 .navbar-items.open {
   height: auto;
   display: flex;
-  align-self: flex-start;
-  padding: 0 1rem;
+  align-self: center;
+  padding: 0;
+  text-align: center;
 }
 .navbar-items.open li {
   display: block;
@@ -77,6 +95,9 @@ em {
   width: 100%;
   margin: 0;
 }
+.hero-area picture {
+  opacity: .8;
+}
 img {
   width: 100%;
   height: auto;
@@ -92,13 +113,20 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .header-text h1 {
   color: #000;
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: 700;
   /* position: absolute; */
-  text-shadow: 2px 3px #ffffff80;
+  text-shadow: 2px 2px 3px #ffffff80;
+  padding-bottom: 1rem;
+}
+.header-text h2 {
+  color: #090909;
+  font-size: 2rem;
+  text-shadow: 2px 2px 3px #ffffff80;
 }
 /* .overlay-text {
     background-color: rgba(255, 255, 255, 0.5);
@@ -137,7 +165,7 @@ img {
   font-weight: 600;
 }
 .thumbs h2:hover {
-  color: #C44412;
+  color: #20557D;
   opacity: 1;
 }
 .thumbs img {
@@ -169,47 +197,48 @@ img {
 }
 .overlay-text:hover {
   opacity: .9;
-  z-index: 10;
 }
 .overlay:hover {
-  opacity: .9;
-  z-index: 1;
+  opacity: 1;
 }
-.on-hover {
+.h-on-hover {
   color: #F3F3F3;
   font-size: 1.5em;
   position: absolute;
   top: 35%;
-  opacity: 1;
 }
 .p-on-hover {
   color: #F3F3F3;
   position: absolute;
   top: 50%;
   padding: 2rem;
-  opacity: 1;
 }
 footer {
   background: #000;
+  padding: 1.5rem;
 }
 footer p {
   color: #FFF;
+  font-family: 'Titillium Web', sans-serif;
+  line-height: 1.5;
   text-align: center;
 }
 footer h4 {
   color: #FFF;
-  padding-top: .7rem;
   text-align: center;
 }
 footer .svg-inline--fa {
   display: inline-block;
-  padding: 0.2rem 0.5rem;
-  font-size: 3rem;
+  margin: 0.2rem 0.7rem;
+  font-size: 2rem;
+}
+footer .svg-inline--fa:hover {
+  color: #20557D;
+  text-decoration: none;
 }
 footer .icon img {
   display: block;
-  border-radius: 0.5rem;
-  max-width: 50%;
+  max-width: 40%;
   margin: 0 auto;
 }
 footer .icon a {
@@ -217,9 +246,8 @@ footer .icon a {
   text-align: center;
   color: #FFF;
 }
-footer .icon a:hover {
-  color: #C44412;
-  text-decoration: none;
+footer .copy {
+  font-size: 1.4rem;
 }
 @media (min-width: 600px) {
   .navbar-link-toggle {
@@ -229,6 +257,13 @@ footer .icon a:hover {
   .navbar {
     display: flex;
     flex-direction: row;
+    padding: 0.5rem 1rem;
+  }
+  .navbar-items.open li {
+    padding: 0 1rem;
+  }
+  .navbar-items.open {
+    padding-right: 1rem;
   }
   .nav-item {
     display: flex;
@@ -239,6 +274,7 @@ footer .icon a:hover {
   }
   .navbar-link-brand {
     padding: 0.5rem 1rem;
+    margin-left: 1rem;
   }
   .description p {
     max-width: 50%;
@@ -266,5 +302,8 @@ footer .icon a:hover {
 @media (min-width: 900px) {
   .thumbs {
     grid-template-columns: repeat(3, 1fr);
+  }
+  footer .icon img {
+    max-width: 30%;
   }
 }

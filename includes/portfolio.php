@@ -1,4 +1,4 @@
-<section class="intro" id="work">
+<section class="intro" id="portfolio">
     <h2>Projects:</h2>
     <p>Here are a few of the sites I'm currently working on and a couple that are *live* in the wild. Nullam libero est, lacinia vel mauris in, condimentum tristique magna. Etiam vulputate, libero id accumsan sagittis, diam sem dignissim metus, et sagittis leo justo eu elit. Phasellus mollis viverra ex, sit amet convallis lorem auctor vel. Mauris sed urna arcu. Cras posuere augue non dictum pellentesque.</p>
 </section>
@@ -6,43 +6,43 @@
     <a href="http://www.pccbridge.com" target="_blank" rel="nofollow" class="overlay-text">
         <img src="images/bridge.jpg" alt="PCC's student newspaper The Bridge">
         <div class="overlay">
-            <h2 class="on-hover">PCC's The Bridge</h2>
-            <p class="p-on-hover">Nullam aliquet justo eget facilisis molestie. Praesent eget sollicitudin augue, id est lobortis lectus malesuada luctus.</p>   
+            <h2 class="h-on-hover">PCC's The Bridge</h2>
+            <p class="p-on-hover">The Bridge is the student newspaper of Portland Community College. The new site is ready for prime time. Legacy documentation and a child theme provide future stability as new editors work on the project.</p>   
         </div>
     </a>
     <a href="http://www.anchortagdesign.com/boots4" target="_blank" rel="nofollow" class="overlay-text">
         <img src="images/boots-thumb.jpg" alt="bootstrap 4 template logo">
         <div class="overlay">
-            <h2 class="on-hover">Bootstrap 4</h2>
-            <p class="p-on-hover">Suspendisse ullamcorper convallis arcu at dapibus. Pellentesque consequat scelerisque nisi, id accumsan sem convallis vel.</p>   
+            <h2 class="h-on-hover">Bootstrap 4</h2>
+            <p class="p-on-hover">Bootstrap is a popular and FREE front-end framework for web development. It features HTML &amp; CSS templates for forms, buttons, navigation systems other elements for building responsive web design.</p>   
         </div>
     </a>
     <a href="https://www.worldwidewario.com/cms" target="_blank" rel="nofollow" class="overlay-text">
         <img src="images/maynard.jpg" alt="the range finder">
         <div class="overlay">
-            <h2 class="on-hover">Maynard's site</h2> 
-            <p class="p-on-hover">Praesent eget sollicitudin augue, id est lobortis lectus malesuada luctus. Nullam aliquet justo eget facilisis molestie.</p>   
+            <h2 class="h-on-hover">Maynard's site</h2> 
+            <p class="p-on-hover">This is Craig Maynard Scott's photography portfolio site. Currently it's just sample images &amp; placeholder text. Live site coming in early 2018. Features: mobile first design and social media links.</p>   
         </div>
     </a>
     <a href="https://www.anchortagdesign.com/ace" target="_blank" rel="nofollow" class="overlay-text">
         <img src="images/ace-thumb.jpg" alt="Ace in the Hole MultiSports">
         <div class="overlay">
-            <h2 class="on-hover">Ace in the Hole</h2>
-            <p class="p-on-hover">Maecenas porttitor lectus sit amet sem fermentum, vitae molestie ex ultricies. Quisque id elit vel ante accumsan scelerisque sit amet sit amet ante.  Nunc  vitae rutrum nisl. Mauris at volutpat sem. Nunc in magna velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices. Morbi quis sapien aliquam, euismod est fringilla, ornare dolor.</p>   
+            <h2 class="h-on-hover">Ace in the Hole</h2>
+            <p class="p-on-hover">"MultiSports for Every Body." The Pacific Northwest's most inclusive and fun weekend event. Features: PHP registration form, Facebook feed, Twitter feed, image gallery, and live weather report widget.</p>   
         </div>
     </a>
     <a href="https://www.anchortagdesign.com/coyote/index.html" target="_blank" rel="nofollow" class="overlay-text">
         <img src="images/u-coyote.jpg" alt="Urban Coyote Project">
         <div class="overlay">
-            <h2 class="on-hover">Urban Coyotes</h2>
-            <p class="p-on-hover">Nunc  vitae rutrum nisl. Mauris at volutpat sem. Nunc in magna velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Morbi quis sapien aliquam, euismod est fringilla, ornare dolor.</p>   
+            <h2 class="h-on-hover">Urban Coyotes</h2>
+            <p class="p-on-hover">This mobile first project is based on the presence of urban coyotes in Portland, OR. Features: Image gallery, links to The Portland Urban Coyote Project (from PSU), and a Smithsonian documentary.</p>   
         </div>
     </a>
     <a href="https://www.anchortagdesign.com/burrito/" target="_blank" rel="nofollow" class="overlay-text">
         <img src="images/burrito.jpg" alt="Burrito Masala">
         <div class="overlay">
-            <h2 class="on-hover">Burrito Masala</h2>
-            <p class="p-on-hover">Praesent eget sollicitudin augue, id est lobortis lectus malesuada luctus. Nullam aliquet justo eget facilisis molestie.</p>   
+            <h2 class="h-on-hover">Burrito Masala</h2>
+            <p class="p-on-hover">Hypothetically, one of the greatest food carts in Portland. Realistically, it's a tight mobile first website. Features: integrated Google map, one-click text to order, and the full menu.</p>   
         </div>
     </a>
 </section>

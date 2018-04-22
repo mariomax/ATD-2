@@ -5,7 +5,10 @@
         <source media="(min-width: 500px)" srcset="images/hero-small.jpg, images/hero-small@2x.jpg 2x">
         <img srcset="images/hero-square.jpg" alt="Interstate 84, Portland Oregon">
     </picture>
-    <span class="header-text">    
-        <h1>Anchor Tag Design II</h1>
+    <span class="header-text">
+    <div>
+        <h1>Anchor Tag Design</h1>
+        <h2>Web | Graphics | Photography</h2>
+    </div>
     </span>
 </section>
