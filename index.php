@@ -53,7 +53,8 @@
     <?php include 'includes/navigation.php'; ?>
     <?php include 'includes/header.php'; ?>
     <?php include 'includes/portfolio.php'; ?>
-    <?php include 'includes/about.php'; ?>
+    <?php include 'includes/tools.php'; ?>
+    <?php include 'includes/process.php'; ?>
     <?php include 'includes/footer.php'; ?>
 
     <script type="text/javascript" src='js/main.js'></script>

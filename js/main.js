@@ -8,7 +8,7 @@ $(document).ready(function () {
 $(".navbar-nav a").click(function () {
     if ($(window).width() < 768) {
         $("body,html").animate({
-            scrollTop:$("#" + $(this).data('value')).offset().top - 220 }, 1000)
+            scrollTop:$("#" + $(this).data('value')).offset().top - 180 }, 1000)
     }
     else 
     $("body,html").animate({

@@ -1,5 +1,5 @@
 <section class="intro" id="portfolio">
-    <h2>Projects:</h2>
+    <h2>Web Projects:</h2>
     <p>Here are a few of the sites I'm currently working on and a couple that are *live* in the wild. Nullam libero est, lacinia vel mauris in, condimentum tristique magna. Etiam vulputate, libero id accumsan sagittis, diam sem dignissim metus, et sagittis leo justo eu elit. Phasellus mollis viverra ex, sit amet convallis lorem auctor vel. Mauris sed urna arcu. Cras posuere augue non dictum pellentesque.</p>
 </section>
 <section class="thumbs">

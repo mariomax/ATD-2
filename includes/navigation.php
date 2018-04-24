@@ -8,11 +8,11 @@
             <a class="nav-link" data-value="portfolio" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" data-value="about" href="#about">About</a>
+            <a class="nav-link" data-value="tools" href="#tools">Web Tools</a>
         </li>
-        <!-- <li class="nav-item">
+        <li class="nav-item">
             <a class="nav-link" data-value="process" href="#process">Process</a>
-        </li> -->
+        </li>
         <li class="nav-item">
             <a class="nav-link" data-value="contact" href="#contact">Contact</a>
         </li>
