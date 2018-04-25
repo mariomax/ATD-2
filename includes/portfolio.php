@@ -1,6 +1,7 @@
 <section class="intro" id="portfolio">
     <h2>Web Projects:</h2>
-    <p>Here are a few of the sites I'm currently working on and a couple that are *live* in the wild. Nullam libero est, lacinia vel mauris in, condimentum tristique magna. Etiam vulputate, libero id accumsan sagittis, diam sem dignissim metus, et sagittis leo justo eu elit. Phasellus mollis viverra ex, sit amet convallis lorem auctor vel. Mauris sed urna arcu. Cras posuere augue non dictum pellentesque.</p>
+    <h3>Designed and built for artists, makers,<br>small businesses, and the service industry</h3>
+    <p>Here are some sites I'm currently working on and a few that are *live* in the wild. Every project is built on mobile first concepts (see below), properly indexed for searching (enhancing SEO), and styled so images sent to a device aren't overly large yet remain high quality. Other standard "best practices" for accessibility, readibility, and security are always followed. Web hosting by <span class="inline-link"><a href="https://www.greengeeks.com/track/mariojames" title="green geeks link" rel="nofollow">Green Geeks</a></span> provides fast load times and consistent service. Plus they're an eco-friendly, solar-powered company!</p>
 </section>
 <section class="thumbs">
     <a href="http://www.pccbridge.com" target="_blank" rel="nofollow" class="overlay-text">

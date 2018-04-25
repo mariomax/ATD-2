@@ -112,9 +112,9 @@ li {
     position: relative;
     width: 100%;
     margin: 0;
-    picture {
-        opacity: .8;
-    }
+    // picture {
+    //     opacity: .8;
+    // }
 }
 
 img {
@@ -135,7 +135,7 @@ img {
     align-items: center;
     text-align: center;
     h1 {
-        color: @black;
+        color: @white;
         font-size: 3rem;
         font-weight: 700;
         /* position: absolute; */
@@ -143,8 +143,8 @@ img {
         padding-bottom: 1rem;
     }
     h2 {
-        color: @dark;
-        font-size: 2rem;
+        color: @light;
+        font-size: 1.2rem;
         // text-shadow: 2px 2px 3px #ffffff80;
     }
 }
@@ -158,12 +158,22 @@ img {
         text-align: center;
         padding: 1.5em 0 .5rem;
     }
+    h3 {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
     p {
         font-size: 1.2em;
         margin: auto;
         max-width: 80%;
         padding-bottom: 2em;
         line-height: 1.3;
+    }
+    .inline-link a {
+        color: #35C622;
+        font-family: 'Noto Serif', serif;
+        font-size: 1em;
     }
 }
 
@@ -280,6 +290,9 @@ img {
 /* Process section */
 .process {
     padding: 1rem;
+    .lists {
+        margin-left: 1rem;
+    }
     .svg-inline--fa {
         color: @blue;
         font-size: 2rem;
@@ -296,9 +309,6 @@ img {
         margin-top: .7rem;
         margin-left: .5rem;
     }
-    ul {
-        padding: 1rem 0;
-    }
     ul li {
         color: @dark;
         font-family: 'Noto Serif', serif;
@@ -314,8 +324,9 @@ img {
 
 /* Footer */
 footer {
-    background: @black;
+    background: @dark;
     padding: 1.5rem 0;
+    margin-top: 1rem;
     p {
         color: @white;
         font-family: 'Titillium Web', sans-serif;
@@ -323,8 +334,13 @@ footer {
         text-align: center;
     }
     h4 {
-        color: @white;
         text-align: center;
+        a {
+            color: @white;
+            &:hover {
+                color: @blue;
+            }
+        }
     }
     .svg-inline--fa {
         display: inline-block;
@@ -338,22 +354,24 @@ footer {
     .icon img {
         display: none;
     }
-    .icon a {
-        display: block;
-        text-align: center;
-        color: @white;
-    }
     .copy {
         font-size: 1.4rem;
     }
 }
 
 @media (min-width: 500px) {
+    .header-text {
+        h2 {
+            font-size: 1.8rem;
+        }
+    }
     .tools {
         margin: 0 2rem;
     }
     .process {
-        margin-left: 2rem;
+        .lists {
+            margin-left: 5rem;
+        }
     }
 } 
 @media (min-width: 576px) {
@@ -441,7 +459,9 @@ footer {
         .lists {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
             grid-gap: .7rem;
+            margin-left: 0;
         }
         .svg-inline--fa {
             margin-left: 0;
