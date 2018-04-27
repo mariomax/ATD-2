@@ -30,6 +30,8 @@
                 </script>
                 <a href="https://www.instagram.com/anchor_tag_design/" target="_blank" rel="nofollow" title="instagram feed"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.facebook.com/anchortagdesign/" target="_blank" rel="nofollow" title="facebook page"><i class="fab fa-facebook-square"></i></a>
+                <a data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="mario-lopriore" class="LI-simple-link" href="https://www.linkedin.com/in/mario-lopriore?trk=profile-badge" target="_blank" title="linkedin link"><i class="fab fa-linkedin"></i></a>
+                
             </h4>
             <p><span class="copy">&copy;</span> 2018 Mario LoPriore</p>
         </div>
