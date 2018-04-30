@@ -1,0 +1,4 @@
+# Ignore folder named `contact`
+contact/
+# Ignore folder named `phpmailer`
+phpmailer/
