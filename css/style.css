@@ -280,6 +280,9 @@ img {
   margin-top: .7rem;
   margin-left: .5rem;
 }
+.process ul {
+  margin: .7rem 1rem 1.5rem;
+}
 .process ul li {
   color: #090909;
   font-family: 'Noto Serif', serif;
@@ -325,7 +328,8 @@ footer .icon img {
   display: none;
 }
 footer .copy {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  vertical-align: -0.3rem;
 }
 @media (min-width: 500px) {
   .header-text h2 {
@@ -479,6 +483,6 @@ footer .copy {
   }
   .process ul li {
     font-size: .9rem;
-    margin-left: 2rem;
+    margin-left: .5rem;
   }
 }

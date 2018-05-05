@@ -55,6 +55,7 @@
     <?php include 'includes/portfolio.php'; ?>
     <?php include 'includes/tools.php'; ?>
     <?php include 'includes/process.php'; ?>
+    <?php include 'contact/index.php'; ?>
     <?php include 'includes/footer.php'; ?>
 
     <script type="text/javascript" src='js/main.js'></script>
