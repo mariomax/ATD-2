@@ -15,6 +15,16 @@ $(".navbar-nav a").click(function () {
         scrollTop:$("#" + $(this).data('value')).offset().top - 30 }, 1000)
 });
 
+$("button a").click(function () {
+    if ($(window).width() < 768) {
+        $("body,html").animate({
+            scrollTop:$("#" + $(this).data('value')).offset().top - 180 }, 1000)
+    }
+    else 
+    $("body,html").animate({
+        scrollTop:$("#" + $(this).data('value')).offset().top - 30 }, 1000)
+});
+
 // Edited from codepen @ http://jsfiddle.net/rcdtest/HDQNs/
 $(".navbar-link-toggle, ul li a").click(function () {
     $(".navbar-items").toggleClass("open");

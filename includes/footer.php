@@ -1,16 +1,14 @@
-<footer class="footer contact" id="contact">
-    <div class="row">
-        <div class="col-xs-6 col-sm-5">
-            <p>(503) 351-3640</p>
+<footer class="footer" id="footer">
+    <div class="footer-grid">
+        <section class="address">
+            <p>(503) 351-364Zero</p>
             <p>P.O. Box 11483
                 <br> Portland, OR 97211</p>
+        </section>
+        <div class="icon">
+            <img src="images/atd-logo-links.png" alt="anchor tag design logo">
         </div>
-        <div class="col-xs-0 col-sm-2">
-            <div class="icon">
-                <img src="images/atd-logo-img.png" alt="anchor tag design logo">
-            </div>
-        </div>
-        <div class="col-xs-6 col-sm-5">
+        <section class="social">
             <h4>
                 <script type="text/javascript">
                 //<![CDATA[
@@ -33,7 +31,7 @@
                 <a data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="mario-lopriore" class="LI-simple-link" href="https://www.linkedin.com/in/mario-lopriore?trk=profile-badge" target="_blank" title="linkedin link"><i class="fab fa-linkedin"></i></a>
                 
             </h4>
-            <p><span class="copy">&copy;</span> 2018 Mario LoPriore</p>
-        </div>
+            <p><span class="copyright">&copy;</span> 2018 Mario LoPriore</p>
+        </section>
     </div>
 </footer>

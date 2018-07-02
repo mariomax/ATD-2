@@ -1,9 +1,18 @@
 <section class="intro" id="portfolio">
     <h2>Web Projects:</h2>
     <h3>Designed and built for artists, makers, small businesses, and the service industry</h3>
-    <p>Here are some sites I'm currently working on and a few that are *live* in the wild. Every project is built on mobile first concepts (see below), properly indexed for searching (enhancing SEO), and styled so images sent to a device aren't overly large yet remain high quality. Other standard "best practices" for accessibility, readibility, and security are always followed. Web hosting by <span class="inline-link"><a href="https://www.greengeeks.com/track/mariojames" title="green geeks link" rel="nofollow">Green Geeks</a></span> provides fast load times and consistent service. Plus they're an eco-friendly, solar-powered company!</p>
+    <p>Here are some sites I'm working on and a few that are *live* in the wild. Every project is built using mobile first concepts (see below) and follow standard "best practices" for accessibility, readibility, and security. Custom digital photography and graphic design enhance the uniqueness of each site. Web hosting by <span class="inline-link"><a href="https://www.greengeeks.com/track/mariojames" title="green geeks link" rel="nofollow">Green Geeks</a></span> provides fast load times and consistent service. Plus they're an eco-friendly, solar-powered company!
+    <br />Let's get together and build your site...</p>
+    <button><a data-value="contact" href="#contact">Connect</a></button>
 </section>
 <section class="thumbs">
+    <a href="https://www.beulahlandpdx.com" target="_blank" rel="nofollow" class="overlay-text">
+        <img src="images/beulah.jpg" alt="Beulahland PDX">
+        <div class="overlay">
+            <h2 class="h-on-hover">Beulahland</h2>
+            <p class="p-on-hover">Beulahland is a unique family-owned, old-school Portland restaurant and lounge. This responsive WordPress site features blog categories for publishing fresh content and a built-in social media sidabar.</p>   
+        </div>
+    </a>
     <a href="http://www.pccbridge.com" target="_blank" rel="nofollow" class="overlay-text">
         <img src="images/bridge.jpg" alt="PCC's student newspaper The Bridge">
         <div class="overlay">
@@ -30,13 +39,6 @@
         <div class="overlay">
             <h2 class="h-on-hover">Ace in the Hole</h2>
             <p class="p-on-hover">"MultiSports for Every Body." The Pacific Northwest's most inclusive and fun weekend event. Features: PHP registration form, Facebook feed, Twitter feed, image gallery, and live weather report widget.</p>   
-        </div>
-    </a>
-    <a href="https://www.anchortagdesign.com/coyote/index.html" target="_blank" rel="nofollow" class="overlay-text">
-        <img src="images/u-coyote.jpg" alt="Urban Coyote Project">
-        <div class="overlay">
-            <h2 class="h-on-hover">Urban Coyotes</h2>
-            <p class="p-on-hover">This mobile first project is based on the presence of urban coyotes in Portland, OR. Features: Image gallery, links to The Portland Urban Coyote Project (from PSU), and a Smithsonian documentary.</p>   
         </div>
     </a>
     <a href="https://www.anchortagdesign.com/burrito/" target="_blank" rel="nofollow" class="overlay-text">
