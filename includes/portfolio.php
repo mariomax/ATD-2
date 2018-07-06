@@ -7,42 +7,42 @@
 </section>
 <section class="thumbs">
     <a href="https://www.beulahlandpdx.com" target="_blank" rel="nofollow" class="overlay-text">
-        <img src="images/beulah.jpg" alt="Beulahland PDX">
+        <img data-src="images/beulah.jpg" alt="Beulahland PDX">
         <div class="overlay">
             <h2 class="h-on-hover">Beulahland</h2>
             <p class="p-on-hover">Beulahland is a unique family-owned, old-school Portland restaurant and lounge. This responsive WordPress site features blog categories for publishing fresh content and a built-in social media sidabar.</p>   
         </div>
     </a>
     <a href="http://www.pccbridge.com" target="_blank" rel="nofollow" class="overlay-text">
-        <img src="images/bridge.jpg" alt="PCC's student newspaper The Bridge">
+        <img data-src="images/bridge.jpg" alt="PCC's student newspaper The Bridge">
         <div class="overlay">
             <h2 class="h-on-hover">PCC's The Bridge</h2>
             <p class="p-on-hover">The Bridge is the student newspaper of Portland Community College. The new site is ready for prime time. Legacy documentation and a child theme provide future stability as new editors work on the project.</p>   
         </div>
     </a>
     <a href="http://www.anchortagdesign.com/boots4" target="_blank" rel="nofollow" class="overlay-text">
-        <img src="images/boots-thumb.jpg" alt="bootstrap 4 template logo">
+        <img data-src="images/boots-thumb.jpg" alt="bootstrap 4 template logo">
         <div class="overlay">
             <h2 class="h-on-hover">Bootstrap 4</h2>
             <p class="p-on-hover">Bootstrap is a popular and FREE front-end framework for web development. It features HTML &amp; CSS templates for forms, buttons, navigation systems other elements for building responsive web design.</p>   
         </div>
     </a>
     <a href="https://www.worldwidewario.com/cms" target="_blank" rel="nofollow" class="overlay-text">
-        <img src="images/maynard.jpg" alt="the range finder">
+        <img data-src="images/maynard.jpg" alt="the range finder">
         <div class="overlay">
             <h2 class="h-on-hover">Maynard's site</h2> 
             <p class="p-on-hover">This is Craig Maynard Scott's photography portfolio site. Currently it's just sample images &amp; placeholder text. Live site coming in early 2018. Features: mobile first design and social media links.</p>   
         </div>
     </a>
     <a href="https://www.anchortagdesign.com/ace" target="_blank" rel="nofollow" class="overlay-text">
-        <img src="images/ace-thumb.jpg" alt="Ace in the Hole MultiSports">
+        <img data-src="images/ace-thumb.jpg" alt="Ace in the Hole MultiSports">
         <div class="overlay">
             <h2 class="h-on-hover">Ace in the Hole</h2>
             <p class="p-on-hover">"MultiSports for Every Body." The Pacific Northwest's most inclusive and fun weekend event. Features: PHP registration form, Facebook feed, Twitter feed, image gallery, and live weather report widget.</p>   
         </div>
     </a>
     <a href="https://www.anchortagdesign.com/burrito/" target="_blank" rel="nofollow" class="overlay-text">
-        <img src="images/burrito.jpg" alt="Burrito Masala">
+        <img data-src="images/burrito.jpg" alt="Burrito Masala">
         <div class="overlay">
             <h2 class="h-on-hover">Burrito Masala</h2>
             <p class="p-on-hover">Hypothetically, one of the greatest food carts in Portland. Realistically, it's a tight mobile first website. Features: integrated Google map, one-click text to order, and the full menu.</p>   

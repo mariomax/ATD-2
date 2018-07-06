@@ -1,12 +1,12 @@
 <footer class="footer" id="footer">
     <div class="footer-grid">
         <section class="address">
-            <p>(503) 351-364Zero</p>
+            <p>(503) 351-364 Zero</p>
             <p>P.O. Box 11483
                 <br> Portland, OR 97211</p>
         </section>
         <div class="icon">
-            <img src="images/atd-logo-links.png" alt="anchor tag design logo">
+            <img data-src="images/atd-logo-links.png" alt="anchor tag design logo">
         </div>
         <section class="social">
             <h4>

@@ -15,7 +15,7 @@
     <meta property="og:title" content="Anchor Tag Design" />
     <meta property="og:description" content="Freelance web design, graphics and photography for artists, makers, and small businesses. Based in Portland, Oregon" />
     <meta property="og:image" content="http://www.anchortagdesign.com/linkedin-og-image.jpg" />
-    <meta property="fb:app_id" content="966242223397117" />
+    <meta property="fb:app_id" content="966242223397117" || content="2074499839536564" />
 
     <!-- Twitter Card markup -->
     <meta name="twitter:card" content="summary" />
@@ -38,7 +38,7 @@
     </script>
 
     <!-- Bootstrap 4 CDN and Font Awesome! business -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
     <!-- Stylesheets in the css folder -->
@@ -50,6 +50,15 @@
 </head>
 <body>
 
+    <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=2074499839536564&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
     <?php include 'includes/navigation.php'; ?>
     <?php include 'includes/header.php'; ?>
     <?php include 'includes/portfolio.php'; ?>
@@ -59,6 +68,7 @@
     <?php include 'includes/footer.php'; ?>
 
     <script type="text/javascript" src='js/main.js'></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//cdn.jsdelivr.net/jquery.lazyloadxt/1.0.0/jquery.lazyloadxt.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" async></script>
 </body>
 </html>

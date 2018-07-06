@@ -42,6 +42,7 @@ button {
   border-radius: 10px;
   box-shadow: 2px 2px 5px #090909;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 1.2rem;
   padding: 1rem;
   transform: scale(1);
   transition: all 0.5s ease-in-out;
@@ -94,7 +95,10 @@ button a:hover {
 }
 .navbar a:hover,
 .navbar a:hover:hover {
-  color: #EB4625;
+  color: #20557D;
+}
+.navbar a:visited {
+  color: #F3F3F3;
 }
 .nav-item .nav-link a {
   padding: 0;
@@ -142,7 +146,7 @@ img {
   text-align: center;
 }
 .header-text .titles {
-  background: #333333aa;
+  background: #22222277;
   border-radius: 20px;
   padding: 1rem;
 }
@@ -181,13 +185,12 @@ img {
   line-height: 1.3;
 }
 .intro .inline-link a {
-  color: #3BB04F;
+  color: #0E7E12;
   font-family: 'Noto Serif', serif;
   font-size: 1em;
 }
 .intro .inline-link a:hover {
   color: #20557D;
-  text-decoration: none;
 }
 .thumbs {
   background-color: #F3F3F3;
@@ -200,13 +203,13 @@ img {
   text-decoration: none;
   padding-top: 1.5em;
 }
-.thumbs h2 {
+.thumbs .h-on-hover {
   color: #20557D;
   font-size: 2em;
   padding-top: .5em;
   font-weight: 600;
 }
-.thumbs h2:hover {
+.thumbs .h-on-hover:hover {
   color: #20557D;
   opacity: 1;
 }
@@ -317,7 +320,7 @@ img {
 .process ul li {
   color: #090909;
   font-family: 'Noto Serif', serif;
-  line-height: 1.3rem;
+  line-height: 1.5;
 }
 .process ul li:before {
   color: #EB4625;
@@ -352,11 +355,18 @@ img {
   float: right;
   padding-top: 1rem;
 }
+.contact label {
+  padding-bottom: .3rem;
+}
+.contact .facebook-feed {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
 /* Footer */
 footer {
   background: #090909;
   padding: 1.5rem 0;
-  margin-top: 1rem;
 }
 footer p {
   color: #FFF;
@@ -521,7 +531,26 @@ footer .copyright {
     padding: 1.5rem 3rem;
   }
   .contact {
-    padding: 2rem 6rem;
+    background-image: url('../images/grid-1.jpg');
+    background-size: cover;
+    padding: 2rem;
+  }
+  .contact .contact-container {
+    grid-template-columns: 1fr 300px;
+    grid-template-areas: "paragraph paragraph" "form feed";
+    grid-column-gap: 2rem;
+    padding-top: 1.5rem;
+  }
+  .contact .contact-container p {
+    grid-area: paragraph;
+    padding: 0 1rem;
+  }
+  .contact .contact-container .contact-form {
+    grid-area: form;
+    padding-top: 2rem;
+  }
+  .contact .contact-container .facebook-feed {
+    grid-area: feed;
   }
   .footer-grid {
     grid-template-columns: 1fr 80px 1fr;
@@ -543,7 +572,7 @@ footer .copyright {
   .thumbs {
     grid-template-columns: repeat(3, 1fr);
   }
-  .overlay {
+  .thumbs .overlay {
     display: grid;
     justify-items: center;
     position: absolute;
@@ -555,49 +584,55 @@ footer .copyright {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #000000ea;
+    background-color: #080808cc;
   }
-  .overlay p {
+  .thumbs .overlay p {
     color: #FFF;
   }
-  .overlay-text:hover {
+  .thumbs .overlay-text:hover {
     opacity: .9;
   }
-  .overlay:hover {
+  .thumbs .overlay:hover {
     opacity: 1;
   }
-  .h-on-hover {
+  .thumbs .h-on-hover {
     color: #F3F3F3;
-    font-size: 1.5em;
+    font-size: 1.7em;
     position: absolute;
     top: 20%;
     transform: scale(1);
     transition: all 0.5s ease-in-out;
   }
-  .h-on-hover:hover {
+  .thumbs .h-on-hover:hover {
+    color: #FFF;
     transform: scale(1.1);
     transition: all 0.5s ease-in-out;
+    text-decoration: underline;
   }
-  .p-on-hover {
+  .thumbs .p-on-hover {
     color: #F3F3F3;
     position: absolute;
-    top: 40%;
+    top: 30%;
     padding: 2rem;
     line-height: 1.3;
   }
   .tools {
     padding: 1.5rem 5rem;
   }
-  .contact .contact-container {
-    grid-template-columns: 5fr 2fr;
-    grid-column-gap: 2rem;
-    padding-top: 1.5rem;
+  .contact {
+    padding: 2rem 3rem;
   }
-  .contact .contact-container .contact-form {
-    order: -1;
+  .contact .contact-container {
+    grid-template-columns: 1fr 340px;
+    grid-column-gap: 3rem;
+    grid-template-areas: "paragraph feed" "form feed";
+    padding-top: 1.5rem;
   }
   .contact .contact-container p {
     padding: 0;
+  }
+  .contact .contact-container .facebook-feed {
+    padding-top: 0;
   }
   footer .icon img {
     max-width: 95%;
