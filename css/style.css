@@ -425,6 +425,10 @@ footer .svg-inline--fa:hover {
   color: #EB4625;
   text-decoration: none;
 }
+footer .tel {
+  color: #FFF !important;
+  text-decoration: none;
+}
 footer .icon img {
   display: none;
 }
