@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i|Titillium+Web:400,600,700');
+/* Google fonts */
 /*
 File Name: palette.css
 Date: 4/20/18 - revised!
@@ -6,6 +8,8 @@ Programmer: Mario Lopriore
 /* Global fix for Bootstrap 4 skew */
 html {
   overflow-x: hidden;
+  height: 100%;
+  width: 100%;
 }
 body {
   margin: 0;
@@ -36,14 +40,15 @@ input::placeholder,
 p,
 blockquote,
 small,
-em {
+em,
+figcaption {
   font-family: 'Noto Serif', serif;
 }
 li {
   list-style-type: none;
 }
 button {
-  background: #EB4625;
+  background: #20557D;
   color: #FFF;
   border-radius: 10px;
   box-shadow: 2px 2px 5px #090909;
@@ -62,7 +67,7 @@ button a {
   text-decoration: none;
 }
 button a:hover {
-  color: #FFF;
+  color: #F3F3F3;
   text-decoration: none;
 }
 /* Navigation */
@@ -72,6 +77,12 @@ button a:hover {
   padding: 1rem;
   color: #FFF;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+.navbar a img svg {
+  fill: #FFF;
+}
+.navbar a img svg:hover {
+  fill: #EB4625;
 }
 .navbar-items,
 .navbar {
@@ -383,6 +394,7 @@ img {
   color: #EB4625;
   font-size: 1.7rem;
   font-weight: 600;
+  padding-bottom: 1.5rem;
 }
 .success h2 {
   color: #20557D;
@@ -392,6 +404,7 @@ img {
 .success p {
   font-family: 'Noto Serif', serif;
   line-height: 1.5rem;
+  padding-bottom: 2rem;
 }
 .success .return {
   margin: 2rem 0;
@@ -438,6 +451,35 @@ footer .social {
 footer .copyright {
   font-size: 1.5rem;
   vertical-align: -0.3rem;
+}
+.four0four {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.four0four .content {
+  flex: 1 0 auto;
+  padding: 2rem;
+}
+.four0four .content figcaption {
+  color: #090909;
+  font-size: .8rem;
+  padding-top: .3rem;
+  padding-bottom: 2rem;
+}
+.four0four .content h1 {
+  color: #EB4625;
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding-bottom: 1.5rem;
+}
+.four0four .content p {
+  font-family: 'Noto Serif', serif;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
+}
+.four0four .four-footer {
+  flex-shrink: 0;
 }
 @media (min-width: 600px) {
   /* Navigation */
@@ -597,6 +639,12 @@ footer .copyright {
     display: grid;
     grid-area: icon;
     margin: 0 auto;
+  }
+  .four0four .content {
+    padding: 4rem;
+  }
+  .four0four .content .figcaption {
+    padding-bottom: 3rem;
   }
 }
 @media (min-width: 900px) {

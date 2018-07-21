@@ -25,9 +25,6 @@
     <meta name="twitter:description" content="Freelance web design, graphics, and photography for artists, makers and small businesses. Mobile first and WordPress sites, custom graphics, and digital photography." />
     <meta name="twitter:image" content="http://www.anchortagdesign.com/linkedin-og-image.png" />
     <link href="https://fonts.googleapis.com/css?family=Neuton:400,400i,700|Share:400,700" rel="stylesheet">
-    
-    <!-- Google fonts. Headline then Body fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700|Noto+Serif:400,400i" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97175852-2"></script>
@@ -51,6 +48,7 @@
 
     <!-- Remove link from phone number. -->
     <meta name="format-detection" content="telephone=no">
+    
 </head>
 <body>
 
@@ -73,6 +71,6 @@
 
     <script type="text/javascript" src='js/main.js'></script>
     <script src="//cdn.jsdelivr.net/jquery.lazyloadxt/1.0.0/jquery.lazyloadxt.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js" async></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" defer></script>
 </body>
 </html>

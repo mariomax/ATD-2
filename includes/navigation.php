@@ -1,6 +1,8 @@
 <nav class="navbar navbar-nav collapse sticky-top" role="navigation">
-    <a class="nav-link navbar-link-brand" data-value="navigation" href="#navigation"><img src="images/navicon.svg" alt="anchor tag design icon"></a>
-    <div class="nav-link navbar-link-toggle">
+    <a class="nav-link navbar-link-brand" id="a-tag" data-value="navigation" href="#navigation">
+      <img src="images/navicon.svg" alt="anchor tag design icon">
+    </a>
+    <div class="navbar-link-toggle">
         <i class="fas fa-bars"></i>
     </div>
     <ul class="navbar-nav navbar-items">

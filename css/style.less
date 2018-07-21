@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i|Titillium+Web:400,600,700');
+/* Google fonts */
+
 @import 'palette.less';
 /* Global fix for Bootstrap 4 skew */
 
 html {
     overflow-x: hidden;
+    height: 100%;
+    width: 100%;
 }
 
 body {
@@ -36,12 +41,11 @@ input::placeholder,
     font-family: 'Titillium Web', sans-serif;
 }
 
-
-
 p,
 blockquote,
 small,
-em {
+em,
+figcaption {
     font-family: 'Noto Serif', serif;
 }
 
@@ -50,7 +54,7 @@ li {
 }
 
 button {
-    background: @orange;
+    background: @blue;
     color: @white;
     border-radius: 10px;
     box-shadow: 2px 2px 5px @dark;
@@ -67,7 +71,7 @@ button {
         color: @white;
         text-decoration: none;
         &:hover {
-            color: @white;
+            color: @light;
             text-decoration: none;
         }
     }
@@ -81,6 +85,19 @@ button {
     padding: 1rem;
     color: @white;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+
+  a {
+    img {
+
+      svg {
+        fill: @white;
+      }
+
+      svg:hover {
+        fill: @orange;
+      }
+    }
+  }
 }
 
 .navbar-items,
@@ -123,6 +140,8 @@ button {
 .nav-item .nav-link a {
     padding: 0;
 }
+
+
 
 /* jQuery CSS for navigation dropdown open/close */
 
@@ -424,6 +443,7 @@ img {
         color: @orange;
         font-size: 1.7rem;
         font-weight: 600;
+        padding-bottom: 1.5rem;
     }
     h2 {
         color: @blue;
@@ -433,6 +453,7 @@ img {
     p {
         font-family: 'Noto Serif', serif; 
         line-height: 1.5rem;
+        padding-bottom: 2rem;
     }
     .return {
         margin: 2rem 0;
@@ -481,6 +502,41 @@ footer {
     .copyright {
         font-size: 1.5rem;
         vertical-align: -.3rem;
+    }
+}
+
+.four0four {
+    // min-height: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    .content {
+        flex: 1 0 auto;
+        padding: 2rem;
+
+        figcaption {
+            color: @dark;
+            font-size: .8rem;
+            padding-top: .3rem;
+            padding-bottom: 2rem;
+        }
+    
+        h1 {
+            color: @orange;
+            font-size: 1.7rem;
+            font-weight: 600;
+            padding-bottom: 1.5rem;
+        }
+       
+        p {
+            font-family: 'Noto Serif', serif; 
+            line-height: 1.5rem;
+            padding-bottom: 2rem;
+        }
+    }
+    .four-footer {
+        flex-shrink: 0;
     }
 }
 
@@ -647,6 +703,15 @@ footer {
             display: grid;
             grid-area: icon;
             margin: 0 auto; // width: 5rem;
+        }
+    }
+    .four0four {
+        .content {
+            padding: 4rem;
+
+            .figcaption {
+                padding-bottom: 3rem;
+            }
         }
     }
 }
