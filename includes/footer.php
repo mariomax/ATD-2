@@ -1,7 +1,7 @@
 <footer class="footer" id="footer">
     <div class="footer-grid">
         <section class="address">
-            <p class="tel">(5&#48;3) 351-364&#48;</p>
+            <p class="tel">(5&#48;3) 351-364Zero</p>
             <p>P.O. Box 11483
                 <br> Portland, OR 97211</p>
         </section>

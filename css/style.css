@@ -47,6 +47,31 @@ figcaption {
 li {
   list-style-type: none;
 }
+.intro,
+.tools,
+.process,
+.contact {
+  padding: 2rem;
+}
+.intro h2,
+.tools h2,
+.process h2,
+.contact h2 {
+  color: #EB4625;
+  font-size: 2em;
+  text-align: center;
+  padding: 1em 0 .5rem;
+}
+.intro h3,
+.tools h3,
+.process h3,
+.contact h3 {
+  color: #000;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
 button {
   background: #20557D;
   color: #FFF;
@@ -179,22 +204,6 @@ img {
   font-size: 1.2rem;
 }
 /* Portfolio section */
-.intro {
-  padding: 2rem;
-}
-.intro h2 {
-  color: #EB4625;
-  font-size: 2em;
-  text-align: center;
-  padding: 1.5em 0 .5rem;
-}
-.intro h3 {
-  font-size: 1.5rem;
-  max-width: 85%;
-  margin: 0 auto;
-  padding-bottom: 1rem;
-  text-align: center;
-}
 .intro p {
   font-size: 1.1em;
   margin: auto;
@@ -208,6 +217,9 @@ img {
 }
 .intro .inline-link a:hover {
   color: #20557D;
+}
+.intro .intro-wrapper .portrait {
+  display: none;
 }
 .thumbs {
   background-color: #F3F3F3;
@@ -267,12 +279,6 @@ img {
   display: grid;
   padding: 2rem;
 }
-.tools h2 {
-  color: #EB4625;
-  font-size: 2em;
-  text-align: center;
-  padding: 1em 0 .5rem;
-}
 .tools .heading {
   display: grid;
   grid-template-columns: 3rem 1fr;
@@ -281,7 +287,7 @@ img {
   align-self: center;
   justify-self: start;
 }
-.tools .heading .title {
+.tools .heading h4 {
   align-self: center;
   justify-self: start;
   color: #20557D;
@@ -290,13 +296,6 @@ img {
 .tools .heading .svg-inline--fa {
   color: #20557D;
   font-size: 2rem;
-}
-.tools .sub {
-  color: #000;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
-  padding-bottom: 1rem;
 }
 .tools p {
   padding: 1rem 0;
@@ -309,12 +308,6 @@ img {
 .process {
   background-color: #F3F3F3;
   padding: 2rem;
-}
-.process h2 {
-  color: #EB4625;
-  font-size: 2em;
-  text-align: center;
-  padding: 1em 0 .5rem;
 }
 .process .lists {
   display: grid;
@@ -330,7 +323,7 @@ img {
   color: #20557D;
   font-size: 2rem;
 }
-.process .lists .card-title h3 {
+.process .lists .card-title h4 {
   align-self: center;
   color: #20557D;
   font-size: 1.5rem;
@@ -349,22 +342,6 @@ img {
   margin-left: -1.5em;
 }
 /* Contact section */
-.contact {
-  padding: 2rem;
-}
-.contact h2 {
-  color: #EB4625;
-  font-size: 2em;
-  text-align: center;
-  padding: 1em 0 .5rem;
-}
-.contact h3 {
-  color: #000;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
-  padding-bottom: 1rem;
-}
 .contact .contact-container {
   display: grid;
 }
@@ -382,7 +359,7 @@ img {
 .contact .facebook-feed {
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 /* Success page */
 .success {
@@ -481,6 +458,7 @@ footer .copyright {
 .four0four .four-footer {
   flex-shrink: 0;
 }
+/* #################### Media Query for 600px; #################### */
 @media (min-width: 600px) {
   /* Navigation */
   .navbar-link-toggle {
@@ -555,6 +533,9 @@ footer .copyright {
     margin: 0;
     padding: 1.5rem;
   }
+  .process h2 {
+    padding-bottom: 1rem;
+  }
   .process .lists {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -583,6 +564,7 @@ footer .copyright {
     padding-top: 0;
   }
 }
+/* #################### Media Query for 768px; #################### */
 @media (min-width: 768px) {
   .intro {
     padding: 2rem 5rem;
@@ -598,7 +580,7 @@ footer .copyright {
     grid-area: fai;
     justify-self: flex-start;
   }
-  .tools .title {
+  .tools h4 {
     grid-area: title;
     justify-self: flex-start;
   }
@@ -630,6 +612,7 @@ footer .copyright {
   }
   .contact .contact-container .facebook-feed {
     grid-area: feed;
+    padding-top: 2rem;
   }
   .footer-grid {
     grid-template-columns: 1fr 80px 1fr;
@@ -647,12 +630,35 @@ footer .copyright {
     padding-bottom: 3rem;
   }
 }
+/* #################### Media Query for 900px; #################### */
 @media (min-width: 900px) {
-  .intro {
-    padding: 2rem 5rem;
+  .intro .intro-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-column-gap: 3rem;
   }
-  .intro h3 {
-    max-width: 80%;
+  .intro .intro-wrapper .intro-para p {
+    padding: 0 0 .75rem 0;
+  }
+  .intro .intro-wrapper .intro-para button {
+    margin-top: 1rem;
+  }
+  .intro .intro-wrapper .portrait {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  .intro .intro-wrapper .portrait img {
+    display: block;
+    max-width: 200px;
+  }
+  .intro .intro-wrapper .portrait small {
+    color: #20557D;
+    font-size: .75rem;
+    line-height: 1.2;
+    padding-left: .4rem;
+    padding-top: .75rem;
+    text-align: center;
   }
   .thumbs {
     grid-template-columns: repeat(3, 1fr);
@@ -723,7 +729,16 @@ footer .copyright {
     max-width: 95%;
   }
 }
-@media (min-width: 1000px) {
+/* #################### Media Query for 1200px; #################### */
+@media (min-width: 1200px) {
+  .intro {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .intro .intro-wrapper {
+    grid-column-gap: 5rem;
+  }
   .tools-container {
     display: grid;
     grid-gap: 4rem;
@@ -758,5 +773,11 @@ footer .copyright {
   }
   .process ul li {
     font-size: .9rem;
+  }
+  .contact .contact-container {
+    grid-column-gap: 5rem;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

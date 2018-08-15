@@ -1,9 +1,17 @@
 <section class="intro" id="portfolio">
     <h2>Web Projects:</h2>
     <h3>Designed and built for artists, makers, small businesses, and the service industry</h3>
-    <p>Here are some sites I'm working on and a few that are *live* in the wild. Every project is built using mobile first concepts (see below) and follow standard "best practices" for accessibility, readibility, and security. Custom digital photography and graphic design enhance the uniqueness of each site. Web hosting by <span class="inline-link"><a href="https://www.greengeeks.com/track/mariojames" title="green geeks link" target="_blank" rel="nofollow noopener">Green Geeks</a></span> provides fast load times and consistent service. Plus they're an eco-friendly, solar-powered company!
-    <br />Let's get together and build your site...</p>
-    <button><a data-value="contact" href="#contact">Connect</a></button>
+    <div class="intro-wrapper">
+        <div class="intro-para">
+            <p>Here are some sites I'm working on and a few that are *live* in the wild. Every project is built using mobile first concepts (see below) and follow standard "best practices" for accessibility, readibility, and security. Custom digital photography and graphic design enhance the uniqueness of each site. Web hosting by <span class="inline-link"><a href="https://www.greengeeks.com/track/mariojames" title="green geeks link" target="_blank" rel="nofollow noopener">Green Geeks</a></span> provides fast load times, consistent service, and SSL certificates (which improves SEO). Plus they're an eco-friendly, solar-powered company!</p>
+            <p>Let's get together and build your site...</p>
+            <button><a data-value="contact" href="#contact">Connect</a></button>
+        </div>
+        <div class="portrait">
+            <img src="images/elevator.jpg" alt="Mario LoPriore">
+            <small>"Hello, World!" is the title of the sample post that comes with a fresh WordPress installation.</small>
+        </div>
+    </div>
 </section>
 <section class="thumbs">
     <a href="https://www.beulahlandpdx.com" target="_blank" rel="nofollow noopener" class="overlay-text">

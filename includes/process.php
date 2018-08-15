@@ -1,10 +1,11 @@
 <section class="process" id="process">
     <h2>Design Process:</h2>
+    <h3>Building blocks &amp; benchmarks</h3>
     <div class="lists">
         <section class="process-card">
             <div class="card-title">
                 <i class="fai far fa-handshake"></i>
-                <h3>Meet &amp; Discuss:</h3>
+                <h4>Meet &amp; Discuss:</h4>
             </div>
             <ul>
                 <li>Intent &amp; mission of the site</li>
@@ -16,7 +17,7 @@
         <section class="process-card">
             <div class="card-title">
                 <i class="fai fas fa-clipboard-list"></i>
-                <h3>Gather Assets:</h3>
+                <h4>Gather Assets:</h4>
             </div>
             <ul>
                 <li>Images, logos &amp; other graphics</li>
@@ -28,7 +29,7 @@
         <section class="process-card">
             <div class="card-title">
                 <i class="fai far fa-file-code"></i>
-                <h3>Design &amp; Test:</h3>
+                <h4>Design &amp; Test:</h4>
             </div> 
             <ul>
                 <li>Create structural wireframes</li>
@@ -40,7 +41,7 @@
         <section class="process-card">
             <div class="card-title">
                 <i class="fai fas fa-rocket"></i>
-                <h3>...Deploy:</h3>
+                <h4>...Deploy:</h4>
             </div> 
             <ul>
                 <li>It's time for the soft launch!</li>

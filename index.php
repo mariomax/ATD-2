@@ -59,7 +59,8 @@
             js = d.createElement(s); js.id = id;
             js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=2074499839536564&autoLogAppEvents=1';
             fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
 
     <?php include 'includes/navigation.php'; ?>
     <?php include 'includes/header.php'; ?>
