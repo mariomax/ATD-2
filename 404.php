@@ -16,7 +16,7 @@
     <meta property="og:title" content="Anchor Tag Design" />
     <meta property="og:description" content="Freelance web design, graphics and photography for artists, makers, and small businesses. Based in Portland, Oregon" />
     <meta property="og:image" content="http://www.anchortagdesign.com/linkedin-og-image.jpg" />
-    <meta property="fb:app_id" content="966242223397117" || content="2074499839536564" />
+    <meta property="fb:app_id" content="2074499839536564" />
 
     <!-- Twitter Card markup -->
     <meta name="twitter:card" content="summary" />

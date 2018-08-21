@@ -735,6 +735,7 @@ footer .copyright {
     max-width: 85%;
     margin-left: auto;
     margin-right: auto;
+    padding: 2rem;
   }
   .intro .intro-wrapper {
     grid-column-gap: 5rem;
