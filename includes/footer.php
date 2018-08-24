@@ -1,7 +1,9 @@
 <footer class="footer" id="footer">
+<!-- Remove link from phone number. -->
+<meta name="format-detection" content="telephone=no">
 	<div class="footer-grid">
 		<section class="address">
-			<p class="tel">(5&#48;3) 351-364Zero</p>
+			<p class="tel">(5&#48;3) 351-3640</p>
 			<p>P.O. Box 11483
 				<br> Portland, OR 97211</p>
 		</section>
