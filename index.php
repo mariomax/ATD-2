@@ -50,7 +50,7 @@
 			"name": "Anchor Tag Design",
 			"address": {
 				"@type": "PostalAddress",
-				"postOfficeBoxNumber": "P.O. Box 11483",
+				"postOfficeBoxNumber": "11483",
 				"addressLocality": "Portland",
 				"addressRegion": "OR",
 				"postalCode": "97211",
