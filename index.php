@@ -33,7 +33,59 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-97175852-2');
-    </script>
+		</script>
+		
+		<!-- Google and schema.org markup -->
+		<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "LocalBusiness",
+			"description": "Custom Web & Graphic Design",
+			"image": [
+				"https://www.anchortagdesign.com/images/atd-logo-1x1.png",
+				"https://www.anchortagdesign.com/images/atd-logo-4x3.png",
+				"https://www.anchortagdesign.com/images/atd-logo-16x9.png"
+			],
+			"@id": "https://www.anchortagdesign.com/",
+			"name": "Anchor Tag Design",
+			"address": {
+				"@type": "PostalAddress",
+				"postOfficeBoxNumber": "P.O. Box 11483",
+				"addressLocality": "Portland",
+				"addressRegion": "OR",
+				"postalCode": "97211",
+				"addressCountry": "US"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": 45.5585520,
+				"longitude": -122.6298890
+			},
+			"url": "https://www.anchortagdesign.com",
+			"telephone": "+15033513640",
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+					"opens": "09:00",
+					"closes": "18:00"
+				},
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": "Saturday",
+					"opens": "10:00",
+					"closes": "17:00"
+				}
+			],
+			"priceRange": "$$$"
+		}
+		</script>
 
     <!-- Bootstrap 4 CDN and Font Awesome! business -->
     <link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
