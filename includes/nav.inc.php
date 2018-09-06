@@ -17,7 +17,7 @@
 			<a class='nav-link' data-value='tools' href="<?php echo htmlspecialchars($test . 'web-tools/index.html.php'); ?>">Web Tools</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" data-value="contact" href="<?php echo htmlspecialchars($test . 'contact/index.html.php'); ?>">Contact</a>
+			<a class="nav-link" data-value="contact" href="<?php echo htmlspecialchars($test . 'contact/index.php'); ?>">Contact</a>
 		</li>
 	</ul>
 </nav>
