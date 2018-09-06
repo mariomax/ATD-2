@@ -33,7 +33,7 @@
 				<a data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="mario-lopriore" class="LI-simple-link" href="https://www.linkedin.com/in/mario-lopriore?trk=profile-badge" target="_blank" rel="nofollow noopener" title="linkedin link"><i class="fab fa-linkedin"></i></a>
 				
 			</h4>
-			<p><span class="copyright">&copy;</span> 2018 Mario LoPriore</p>
+			<p><span class="copyright">&copy;</span> <?php echo date("Y"); ?> Mario LoPriore</p>
 		</section>
 	</div>
 </footer>

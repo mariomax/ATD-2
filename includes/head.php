@@ -86,7 +86,6 @@
 }
 </script>
 
-
 <!-- Stylesheets in the css folder -->
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
