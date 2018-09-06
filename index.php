@@ -33,7 +33,7 @@
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
 	  gtag('config', 'UA-97175852-2');
-		</script>
+	</script>
 		
 	<!-- Google and schema.org markup -->
 	<script type="application/ld+json">
@@ -123,7 +123,7 @@
 	<?php include 'includes/footer.php'; ?>
 
 	<script type="text/javascript" src='js/main.js'></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" async></script>
 	<script src="//cdn.jsdelivr.net/jquery.lazyloadxt/1.0.0/jquery.lazyloadxt.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.1.1.min.js" defer></script>
 </body>
 </html>
