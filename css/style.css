@@ -423,7 +423,7 @@ footer .icon img {
   display: none;
 }
 footer .social {
-  padding-top: .5rem;
+  padding: .5rem 0px;
 }
 footer .copyright {
   font-size: 1.5rem;
