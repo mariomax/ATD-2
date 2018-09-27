@@ -28,6 +28,13 @@
 			<p class="p-on-hover">The Bridge is the student newspaper of Portland Community College. The new WordPress site is constantly updated. Legacy documentation and a child theme provide future stability as new editors work on the project.<span class="sign-off">-30-</span></p>   
 		</div>
 	</a>
+	<a href="https://www.cascadiapiper.com" target="_blank" rel="nofollow noopener" class="overlay-text">
+		<img data-src="images/piper.jpg" alt="John Goff: the Cascadia Piper">
+		<div class="overlay">
+			<h2 class="h-on-hover">Cascadia Piper</h2>
+			<p class="p-on-hover">John Goff: The Cascadia Piper. This mobile first site was built from scratch with Twitter, Facebook and Schema markup for SEO, audio players, a Facebook page feed, and the PHPMailer contact form.</p>   
+		</div>
+	</a>
 	<a href="http://www.anchortagdesign.com/boots4" target="_blank" rel="nofollow noopener" class="overlay-text">
 		<img data-src="images/boots-thumb.jpg" alt="bootstrap 4 template logo">
 		<div class="overlay">
@@ -47,13 +54,6 @@
 		<div class="overlay">
 			<h2 class="h-on-hover">Ace in the Hole</h2>
 			<p class="p-on-hover">"MultiSports for Every Body." The Pacific Northwest's most inclusive and fun weekend event. Features: PHP registration form, Facebook feed, Twitter feed, image gallery, and live weather report widget.</p>   
-		</div>
-	</a>
-	<a href="https://www.anchortagdesign.com/burrito/" target="_blank" rel="nofollow noopener" class="overlay-text">
-		<img data-src="images/burrito.jpg" alt="Burrito Masala">
-		<div class="overlay">
-			<h2 class="h-on-hover">Burrito Masala</h2>
-			<p class="p-on-hover">Hypothetically, one of the greatest food carts in Portland. Realistically, it's a tight mobile first website. Features: integrated Google map, one-click text to order, and the full menu.</p>   
 		</div>
 	</a>
 </section>

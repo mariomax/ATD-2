@@ -15,7 +15,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Anchor Tag Design" />
 	<meta property="og:description" content="Freelance web design, graphics and photography for artists, makers, and small businesses. Based in Portland, Oregon" />
-	<meta property="og:image" content="http://www.anchortagdesign.com/linkedin-og-image.jpg" />
+	<meta property="og:image" content="https://www.anchortagdesign.com/linkedin-og-image.jpg" />
 	<meta property="fb:app_id" content="966242223397117" || content="2074499839536564" />
 
 	<!-- Twitter Card markup -->
@@ -23,7 +23,7 @@
 	<meta name="twitter:site" content="@mariojames211" />
 	<meta name="twitter:title" content="Portland Oregon Web Designer and Photographer" />
 	<meta name="twitter:description" content="Freelance web design, graphics, and photography for artists, makers and small businesses. Mobile first and WordPress sites, custom graphics, and digital photography." />
-	<meta name="twitter:image" content="http://www.anchortagdesign.com/linkedin-og-image.png" />
+	<meta name="twitter:image" content="https://www.anchortagdesign.com/linkedin-og-image.png" />
 	<link href="https://fonts.googleapis.com/css?family=Neuton:400,400i,700|Share:400,700" rel="stylesheet">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -48,7 +48,6 @@
 		],
 		"@id": "https://www.anchortagdesign.com/",
 		"name": "Anchor Tag Design",
-		"short_name": "Anchor Tag",
 		"address": {
 			"@type": "PostalAddress",
 			"postOfficeBoxNumber": "11483",

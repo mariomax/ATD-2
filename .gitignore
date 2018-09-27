@@ -2,3 +2,6 @@
 contact/
 # Ignore folder named `phpmailer`
 phpmailer/
+
+server.cert
+server.key
