@@ -33,7 +33,7 @@
 			<!-- <p class="tel">(5&#48;3) 351-364Zero</p> -->
 			<p>P.O. Box 11483
 				<br> Portland, OR 97211</p>
-			<p><span class="copyright">&copy;</span>&nbsp;<?php echo date("Y"); ?></p>
+			<p><span class="copyright">&copy;</span>&nbsp;<?php echo date("Y"); ?> Anchor Tag Design</p>
 		</section>
 	</div>
 
