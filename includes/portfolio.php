@@ -1,9 +1,12 @@
 <section class="intro" id="portfolio">
 	<h2>Web Projects:</h2>
-	<h3>Designed and built for artists, makers, small businesses, and the service industry</h3>
+	<h3>Designed & built for artists, small businesses, and the service industry</h3>
 	<div class="intro-wrapper">
 		<div class="intro-para">
-			<p>Here are some sites I'm working on and a few that are *live* in the wild. Every project is built using mobile first concepts (see below) and follow standard "best practices" for accessibility, readibility, and security. Custom digital photography and graphic design enhance the uniqueness of each site. Web hosting by <span class="inline-link"><a href="https://www.greengeeks.com/track/mariojames" title="green geeks link" target="_blank" rel="nofollow noopener">Green Geeks</a></span> provides fast load times, consistent service, and SSL certificates (which improves SEO). Plus they're an eco-friendly, solar-powered company!</p>
+			<p>A site built with custom graphic design and digital photography enhance the uniqueness of your brand.<br />
+			[that's the business plan].</p>
+			<p>A site designed for the customers of your business draws traffic.<br />
+			[that's the goal].</p>
 			<p>Let's get together and build your site...</p>
 			<button><a data-value="contact" href="#contact">Connect</a></button>
 		</div>
@@ -18,21 +21,21 @@
 		<img data-src="images/new-beulah.jpg" alt="Beulahland PDX">
 		<div class="overlay">
 			<h2 class="h-on-hover">Beulahland</h2>
-			<p class="p-on-hover">Beulahland is a unique family-owned, old-school Portland restaurant and lounge. This responsive WordPress site features blog categories for publishing fresh content and a built-in social media sidebar.</p>   
+			<p class="p-on-hover">Beulahland is a unique, family-owned, old-school Portland restaurant and lounge. This responsive WordPress site features blog categories for publishing fresh content and a built-in social media sidebar.</p>   
 		</div>
 	</a>
 	<a href="http://www.pccbridge.com" target="_blank" rel="nofollow noopener" class="overlay-text">
 		<img data-src="images/bridge.jpg" alt="PCC's student newspaper The Bridge">
 		<div class="overlay">
 			<h2 class="h-on-hover">PCC's The Bridge</h2>
-			<p class="p-on-hover">The Bridge is the student newspaper of Portland Community College. The new WordPress site is constantly updated. Legacy documentation and a child theme provide future stability as new editors work on the project.<span class="sign-off">-30-</span></p>   
+			<p class="p-on-hover"><em>The Bridge</em> is the student newspaper of Portland Community College (PCC). The WordPress site is updated each term. Legacy documentation and a child theme provide future stability as new editors work on the project.<span class="sign-off">-30-</span></p>   
 		</div>
 	</a>
 	<a href="https://www.cascadiapiper.com" target="_blank" rel="nofollow noopener" class="overlay-text">
 		<img data-src="images/piper.jpg" alt="John Goff: the Cascadia Piper">
 		<div class="overlay">
 			<h2 class="h-on-hover">Cascadia Piper</h2>
-			<p class="p-on-hover">John Goff: The Cascadia Piper. This mobile first site was built from scratch with Twitter, Facebook and Schema markup for SEO, audio players, a Facebook page feed, and the PHPMailer contact form.</p>   
+			<p class="p-on-hover">John Goff: The Cascadia Piper<br />This mobile first site was built from scratch with Twitter, Facebook and Schema markup to maximize SEO. Audio players, a Facebook page feed, and an image gallery provide the background texture.</p>   
 		</div>
 	</a>
 	<a href="http://www.anchortagdesign.com/boots4" target="_blank" rel="nofollow noopener" class="overlay-text">

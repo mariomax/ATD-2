@@ -1,6 +1,7 @@
 <section class="tools" id="tools">
 	<h2>Web Design</h2>
 	<h3>Concepts &amp; Tools:</h3>
+	<p>I'm hosting sites via <span class="inline-link"><a href="https://www.greengeeks.com/track/mariojames" title="green geeks link" target="_blank" rel="nofollow noopener">Green Geeks</a></span> in northern CA. They provide consistent service and free security certificates (which improve SEO). Plus they're an eco-friendly, solar-powered company. Reliability paired with sustainability (maybe they'll give me discounted services for that comment).</p>
 	<section class="tools-container">
 		<div class="tool1">
 			<section class="heading">
