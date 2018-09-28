@@ -15,7 +15,7 @@
 </section>
 <section class="thumbs">
 	<a href="https://www.beulahlandpdx.com" target="_blank" rel="nofollow noopener" class="overlay-text">
-		<img data-src="images/beulah.jpg" alt="Beulahland PDX">
+		<img data-src="images/new-beulah.jpg" alt="Beulahland PDX">
 		<div class="overlay">
 			<h2 class="h-on-hover">Beulahland</h2>
 			<p class="p-on-hover">Beulahland is a unique family-owned, old-school Portland restaurant and lounge. This responsive WordPress site features blog categories for publishing fresh content and a built-in social media sidebar.</p>   
