@@ -3,7 +3,7 @@
 	<div class="footer-grid">
 		
 		<div class="icon">
-			<img data-src="images/atd-logo-links.png" alt="anchor tag design logo">
+			<img src="images/atd-logo-links.png" alt="anchor tag design logo">
 		</div>
 
 		<section class="social">
@@ -30,7 +30,7 @@
 			</h4>
 		</section>
 		<section class="address">
-			<!-- <p class="tel">(5&#48;3) 351-364Zero</p> -->
+			<h5>Mailing address:</h5>
 			<p>P.O. Box 11483
 				<br> Portland, OR 97211</p>
 			<p><span class="copyright">&copy;</span>&nbsp;<?php echo date("Y"); ?> Anchor Tag Design</p>

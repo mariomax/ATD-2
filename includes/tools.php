@@ -1,14 +1,14 @@
 <section class="tools" id="tools">
 	<h2>Web Design</h2>
 	<h3>Concepts &amp; Tools:</h3>
-	<p>I'm hosting sites via <span class="inline-link"><a href="https://www.greengeeks.com/track/mariojames" title="green geeks link" target="_blank" rel="nofollow noopener">Green Geeks</a></span> in northern CA. They provide consistent service and free security certificates (which improve SEO). Plus they're an eco-friendly, solar-powered company. Reliability paired with sustainability (maybe they'll give me discounted services for that comment).</p>
+	<p>I'm hosting sites via <span class="inline-link"><a href="https://www.greengeeks.com/track/mariojames" title="green geeks link" target="_blank" rel="nofollow noopener">Green Geeks</a></span> in northern California. They provide consistent service and free SSL security certificates (which improve SEO). Plus they're an eco-friendly, solar-powered company. It's reliability paired with sustainability (maybe they'll give me a kick-back for that comment).</p>
 	<section class="tools-container">
 		<div class="tool1">
 			<section class="heading">
 				<div class="fai"><i class="fas fa-mobile-alt"></i></div>
 				<h4>Mobile First</h4>
 			</section>
-			<p>The “mobile first” concept implies a website is designed for optimal use and fast load times on smart phones – where most web traffic originates. When the site is viewed on larger screens, additional styling and functionality contribute to the user’s experience (progressive enhancement). Google actualluy downgrades search rankings (SEO) when a site isn’t properly mobile optimized.</p>
+			<p>The “mobile first” concept implies a website is designed for optimal use and fast load times on smart phones – where most web traffic originates. When the site is viewed on larger screens, additional styling and functionality contribute to the user’s experience (progressive enhancement). Google will downgrade search rankings (SEO) when a site isn’t properly mobile optimized.</p>
 		</div>
 
 		<div class="tool2">

@@ -1,5 +1,7 @@
 ErrorDocument 404 /404.php
 
+Header always set Strict-Transport-Security "max-age=31536000; preload; includeSubDomains" env=HTTPS
+
 <ifModule mod_gzip.c>
 mod_gzip_on Yes
 mod_gzip_dechunk Yes

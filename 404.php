@@ -24,7 +24,6 @@
   <meta name="twitter:title" content="Portland Oregon Web Designer and Photographer" />
   <meta name="twitter:description" content="Freelance web design, graphics, and photography for artists, makers and small businesses. Mobile first and WordPress sites, custom graphics, and digital photography." />
   <meta name="twitter:image" content="http://www.anchortagdesign.com/linkedin-og-image.png" />
-  <link href="https://fonts.googleapis.com/css?family=Neuton:400,400i,700|Share:400,700" rel="stylesheet">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97175852-2"></script>

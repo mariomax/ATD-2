@@ -210,16 +210,26 @@ img {
   padding-bottom: 1.5rem;
   line-height: 1.3;
 }
-.intro .inline-link a {
-  color: #0E7E12;
-  font-family: 'Noto Serif', serif;
-  font-size: 1em;
-}
-.intro .inline-link a:hover {
-  color: #20557D;
-}
 .intro .intro-wrapper .portrait {
   display: none;
+}
+.intro .intro-wrapper .button {
+  background: #20557D;
+  color: #FFF;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #090909;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1.2rem;
+  padding: 1rem;
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+.intro .intro-wrapper .button:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.intro .intro-wrapper .button a {
+  padding-top: 1rem;
 }
 .thumbs {
   background-color: #F3F3F3;
@@ -300,6 +310,14 @@ img {
 .tools p {
   padding: 1rem 0;
   line-height: 1.3;
+}
+.tools p .inline-link a {
+  color: #0E7E12;
+  font-family: 'Noto Serif', serif;
+  font-size: 1em;
+}
+.tools p .inline-link a:hover {
+  color: #20557D;
 }
 .tools p:last-of-type {
   padding-bottom: 1.5rem;
@@ -415,9 +433,8 @@ footer .svg-inline--fa:hover {
   color: #EB4625;
   text-decoration: none;
 }
-footer .tel {
-  color: #FFF !important;
-  text-decoration: none;
+footer .address h5 {
+  display: none;
 }
 footer .icon img {
   display: none;
@@ -640,7 +657,7 @@ footer .copyright {
   .intro .intro-wrapper .intro-para p {
     padding: 0 0 .75rem 0;
   }
-  .intro .intro-wrapper .intro-para button {
+  .intro .intro-wrapper .intro-para .button {
     margin-top: 1rem;
   }
   .intro .intro-wrapper .portrait {
@@ -690,7 +707,7 @@ footer .copyright {
     color: #F3F3F3;
     font-size: 1.7em;
     position: absolute;
-    top: 10%;
+    top: 5%;
     transform: scale(1);
     transition: all 0.5s ease-in-out;
   }
@@ -703,7 +720,7 @@ footer .copyright {
   .thumbs .p-on-hover {
     color: #F3F3F3;
     position: absolute;
-    top: 22%;
+    top: 12%;
     padding: 2rem;
     line-height: 1.5;
   }
