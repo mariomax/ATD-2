@@ -4,11 +4,11 @@
 	<div class="intro-wrapper">
 		<div class="intro-para">
 			<p>A site built with custom graphic design and digital photography enhance the uniqueness of your brand.<br />
-			[that's the business plan].</p>
-			<p>A site designed for the customers of your business draws traffic.<br />
-			[that's the goal].</p>
+			<em>[that's the plan]</em></p>
+			<p>A site designed with your business' customers in mind draws traffic.<br />
+			<em>[that's the goal]</em></p>
 			<p>Let's get together and build your site...</p>
-			<div>
+			<div class="cta-button">
 				<a href="https://www.anchortagdesign.com/#contact" class="button" data-value="contact">Connect</a>
 			</div>
 		</div>
@@ -26,20 +26,20 @@
 			<p class="p-on-hover">Beulahland is a unique, family-owned, old-school Portland restaurant and lounge. This responsive WordPress site features blog categories for publishing fresh content and a built-in social media sidebar.</p>   
 		</div>
 	</a>
-	<a href="http://www.pccbridge.com" target="_blank" rel="nofollow noopener" class="overlay-text">
-		<img src="images/bridge.jpg" alt="PCC's student newspaper The Bridge">
-		<div class="overlay">
-			<h2 class="h-on-hover">PCC's The Bridge</h2>
-			<p class="p-on-hover"><em>The Bridge</em> is the student newspaper of Portland Community College (PCC). The WordPress site is updated each term. Legacy documentation and a child theme provide future stability as new editors work on the project.<span class="sign-off">-30-</span></p>   
-		</div>
-	</a>
 	<a href="https://www.cascadiapiper.com" target="_blank" rel="nofollow noopener" class="overlay-text">
-		<img src="images/piper.jpg" alt="John Goff: the Cascadia Piper">
-		<div class="overlay">
-			<h2 class="h-on-hover">Cascadia Piper</h2>
-			<p class="p-on-hover">John Goff: The Cascadia Piper<br />This mobile first site was built from scratch with Twitter, Facebook and Schema markup to maximize SEO. A Facebook page feed, audio players, and an image gallery provide background texture.</p>   
-		</div>
-	</a>
+	<img src="images/piper.jpg" alt="John Goff: the Cascadia Piper">
+	<div class="overlay">
+		<h2 class="h-on-hover">Cascadia Piper</h2>
+		<p class="p-on-hover">John Goff: The Cascadia Piper<br />This mobile first site was built from scratch with Twitter, Facebook and Schema markup to maximize SEO. A Facebook page feed, audio players, and an image gallery provide background texture.</p>   
+	</div>
+</a>
+<a href="http://www.pccbridge.com" target="_blank" rel="nofollow noopener" class="overlay-text">
+	<img src="images/bridge.jpg" alt="PCC's student newspaper The Bridge">
+	<div class="overlay">
+		<h2 class="h-on-hover">PCC's The Bridge</h2>
+		<p class="p-on-hover"><em>The Bridge</em> is the student newspaper of Portland Community College (PCC). The WordPress site is updated each term. Legacy documentation and a child theme provide future stability as new editors work on the project.<span class="sign-off">-30-</span></p>   
+	</div>
+</a>
 	<a href="http://www.anchortagdesign.com/boots4" target="_blank" rel="nofollow noopener" class="overlay-text">
 		<img src="images/boots-thumb.jpg" alt="bootstrap 4 template logo">
 		<div class="overlay">
@@ -51,7 +51,7 @@
 		<img src="images/maynard.jpg" alt="the range finder">
 		<div class="overlay">
 			<h2 class="h-on-hover">Maynard's site</h2> 
-			<p class="p-on-hover">This is Craig Maynard Scott's online photography portfolio. Currently, it's just sample images &amp; placeholder text. Live site coming mid 2018. Features: mobile first design and social media links.</p>   
+			<p class="p-on-hover">This is Craig Maynard Scott's online photography portfolio. Currently, it's just sample images &amp; placeholder text. Live site coming fall 2018. Features: mobile first design and social media links.</p>   
 		</div>
 	</a>
 	<a href="https://www.anchortagdesign.com/ace" target="_blank" rel="nofollow noopener" class="overlay-text">
