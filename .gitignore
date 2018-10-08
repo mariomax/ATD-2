@@ -2,3 +2,8 @@
 contact/
 # Ignore folder named `phpmailer`
 phpmailer/
+# Ignore database connection
+includes/db.inc.php
+# These 2 encrypted keys:
+server.cert
+server.key
