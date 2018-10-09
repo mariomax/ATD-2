@@ -87,12 +87,12 @@
 	}
 	</script>
 
-	<!-- Bootstrap 4 CDN and Font Awesome! business -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Font Awesome! CDN -->
 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
 	<!-- Stylesheets in the css folder -->
 	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/overlay.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 
 	<!-- jQuery CDN -->
@@ -103,7 +103,7 @@
 	
 </head>
 <body>
-	<?php include 'includes/navigation.php'; ?>
+	<?php include 'includes/nav.php'; ?>
 	<?php include 'includes/header.php'; ?>
 	<?php include 'includes/portfolio.php'; ?>
 	<?php include 'includes/tools.php'; ?>

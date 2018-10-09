@@ -1,7 +1,7 @@
 /* Google fonts */
-
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,400i|Titillium+Web:400,600,700");
 @import "palette.less";
+
 /* Global fix for Bootstrap 4 skew */
 
 html {
@@ -99,11 +99,27 @@ button {
 }
 
 /* Navigation */
-
-.navbar {
-  background: @dark;
+.top-nav {
+  background-color: @dark;
   display: flex;
-  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding: 0 2rem;
+  top: 0;
+  z-index: 2;
+  .navbar-brand {
+    max-width: 3rem;
+    z-index: 200;
+    img {
+      width: 100%;
+      height: auto;
+    } 
+  }
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
   color: @white;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
   a {
@@ -118,84 +134,17 @@ button {
   }
 }
 
-.navbar-items,
-.navbar {
-  flex-direction: column;
-  padding: 0.5rem 1rem;
-}
-
-.navbar-items {
-  display: none;
-}
-
-.navbar-link-brand {
-  align-self: flex-start;
-  padding: 0.5rem 1rem;
-  max-width: 3rem;
-}
-
-.navbar-link-toggle {
-  align-self: flex-end;
-  display: initial;
-  position: absolute;
-  color: @white;
-  padding: 0.8rem 1rem;
-}
-
-.navbar a,
-.navbar a:hover {
-  text-decoration: none;
-  color: @white; // padding: 0.5rem 1rem;
-  // font-weight: 600;
-  font-size: 1.1rem;
-  &:hover {
-    color: @orange; // font-weight: 600;
-  }
-}
-
-.navbar a:visited {
-  color: @light;
-}
-
-.nav-item .nav-link a {
-  padding: 0;
-}
-
-/* jQuery CSS for navigation dropdown open/close */
-
-.navbar-items.open {
-  height: auto;
-  display: flex;
-  align-self: center;
-  padding: 0;
-  text-align: center;
-}
-
-.navbar-items.open li {
-  display: block;
-  padding-top: 0.5rem;
-}
-
-.navbar-items.close {
-  height: 0;
-  padding-top: 0;
-}
-
-.navbar-items.close li {
-  display: none;
-}
-
 /* Header & hero image */
 
 .hero-area {
   position: relative;
   width: 100%;
   margin: 0;
-}
-
-img {
-  width: 100%;
-  height: auto;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }
 
 .header-text {
@@ -535,34 +484,7 @@ footer {
 /* #################### Media Query for 600px; #################### */
 
 @media (min-width: 600px) {
-  /* Navigation */
-  .navbar-link-toggle {
-    display: none;
-  }
-  .navbar-items,
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    padding: 0.5rem 1rem;
-  }
-  .navbar-items.open li {
-    padding: 0 1rem;
-  }
-  .navbar-items.open {
-    padding-right: 1rem;
-  }
-  .nav-item {
-    display: flex;
-    padding: 0 1rem;
-  }
-  .nav-link {
-    padding: 0;
-  } // Removes padding from their div.
-  .navbar-link-brand {
-    padding: 0.5rem 1rem;
-    margin-left: 1rem;
-  } // Restores padding to this one item.
-  /* Intro section */
+/* Intro section */
   .intro {
     padding: 3rem;
   }
@@ -644,6 +566,8 @@ footer {
 /* #################### Media Query for 768px; #################### */
 
 @media (min-width: 768px) {
+
+  /* Intro section */
   .intro {
     padding: 2rem 5rem;
     h3 {

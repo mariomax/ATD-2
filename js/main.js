@@ -5,10 +5,10 @@
 //     $('.header').height($(window).height());
 // });
 
-$(".navbar-nav a").click(function () {
+$(".navbar a").click(function () {
 	if ($(window).width() < 768) {
 		$("body,html").animate({
-			scrollTop:$("#" + $(this).data('value')).offset().top - 180 }, 1000)
+			scrollTop:$("#" + $(this).data('value')).offset().top}, 1000)
 	}
 	else 
 	$("body,html").animate({
@@ -28,4 +28,15 @@ $("button a").click(function () {
 // Edited from codepen @ http://jsfiddle.net/rcdtest/HDQNs/
 $(".navbar-link-toggle, ul li a").click(function () {
 	$(".navbar-items").toggleClass("open");
+});
+
+// From jqueryscript.net Fullscreen Hamburger Overlay
+$('#toggle').click(function() {
+	$(this).toggleClass('toggle-active');
+	$('#overlay').toggleClass('nav-active');
+});
+
+$('#nav-link').click(function() {
+	$('#overlay').removeClass('nav-active');
+	$('#toggle').toggleClass('toggle-active');
 });

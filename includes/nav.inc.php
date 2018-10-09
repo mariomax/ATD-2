@@ -1,23 +1,23 @@
-<?php
-	$home = 'https://www.anchortagdesign.com/';
-	$test = '../';
-?>
-<nav class="navbar navbar-nav collapse sticky-top" role="navigation">
-	<a class="nav-link navbar-link-brand" id="a-tag" data-value="navigation" href="<?php echo htmlspecialchars($test . 'index.php'); ?>">
-	  <img src="../images/navicon.svg" alt="anchor tag design icon">
+<div class="top-nav">
+	<a class="navbar-brand" id="a-tag" data-value="navigation" href="index.php">
+		<img src="images/navicon.svg" alt="anchor tag design icon">
 	</a>
-	<div class="navbar-link-toggle">
-		<i class="fas fa-bars"></i>
+	<div class="toggle-button" id="toggle">
+		<span class="bar top"></span>
+		<span class="bar middle"></span>
+		<span class="bar bottom"></span>
 	</div>
-	<ul class="navbar-nav navbar-items">
-		<li class="nav-item">
-			<a class="nav-link" data-value="portfolio" href="<?php echo htmlspecialchars($test . '#portfolio'); ?>";>Portfolio</a>
-		</li>
-		<li class="nav-item">
-			<a class='nav-link' data-value='tools' href="<?php echo htmlspecialchars($test . 'web-tools/index.html.php'); ?>">Web Tools</a>
-		</li>
-		<li class="nav-item">
-			<a class="nav-link" data-value="contact" href="<?php echo htmlspecialchars($test . 'contact/index.php'); ?>">Contact</a>
-		</li>
-	</ul>
-</nav>
+	<nav class="overlay-nav navbar" id="overlay" role="navigation">
+		<ul>
+			<li>
+				<a href="../index.php/#portfolio" data-value="portfolio" id="nav-link">Portfolio</a>
+			</li>
+			<li>
+				<a href="../web-tools">Web Tools</a>
+			</li>
+			<li>
+				<a href="contact/index.php">Contact</a>
+			</li>
+		</ul>
+	</nav>
+</div>

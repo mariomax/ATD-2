@@ -1,5 +1,5 @@
-<section class="intro" id="portfolio">
-	<h2>Web Projects:</h2>
+<section class="intro">
+	<h2 id="portfolio">Web Projects:</h2>
 	<h3>Designed & built for artists, small businesses, and the service industry</h3>
 	<div class="intro-wrapper">
 		<div class="intro-para">
