@@ -12,7 +12,7 @@ $(".navbar a").click(function () {
 	}
 	else 
 	$("body,html").animate({
-		scrollTop:$("#" + $(this).data('value')).offset().top - 30 }, 1000)
+		scrollTop:$("#" + $(this).data('value')).offset().top - 50 }, 1000)
 });
 
 $("button a").click(function () {

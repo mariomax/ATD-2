@@ -33,6 +33,10 @@ textarea {
   font-family: "Titillium Web", sans-serif;
 }
 /* Firefox doesn't like this formatting - OK in Chrome */
+input::-webkit-input-placeholder,
+::-webkit-input-placeholder {
+  font-family: "Titillium Web", sans-serif;
+}
 input::placeholder,
 ::-webkit-input-placeholder {
   font-family: "Titillium Web", sans-serif;
@@ -76,15 +80,20 @@ button {
   background: #20557D;
   color: #FFF;
   border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 5px #090909;
   box-shadow: 2px 2px 5px #090909;
   font-family: "Titillium Web", sans-serif;
   font-size: 1.2rem;
   padding: 1rem;
+  -webkit-transform: scale(1);
   transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 button:hover {
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 button a {
@@ -98,8 +107,14 @@ button a:hover {
 /* Navigation */
 .top-nav {
   background-color: #090909;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 4rem;
   padding: 0 2rem;
@@ -115,16 +130,20 @@ button a:hover {
   height: auto;
 }
 .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   color: #FFF;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
 }
-.navbar a img svg {
-  fill: #FFF;
-}
-.navbar a img svg:hover {
-  fill: #EB4625;
+.navbar a .sub-nav {
+  font-size: 1.2rem;
+  margin-top: .1rem;
 }
 /* Header & hero image */
 .hero-area {
@@ -145,8 +164,14 @@ button a:hover {
   right: 0;
   height: 100%;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   text-align: center;
 }
@@ -186,15 +211,20 @@ button a:hover {
   background: #20557D;
   color: #FFF;
   border-radius: 10px;
+  -webkit-box-shadow: 2px 2px 5px #090909;
   box-shadow: 2px 2px 5px #090909;
   font-family: "Titillium Web", sans-serif;
   font-size: 1.2rem;
   padding: 1rem;
+  -webkit-transform: scale(1);
   transform: scale(1);
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 .intro .intro-wrapper .button:hover {
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
+  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 .intro .intro-wrapper .button a {
@@ -233,6 +263,9 @@ button a:hover {
   line-height: 1.3;
   padding: 1rem;
 }
+.thumbs p em {
+  font-size: 1.2rem;
+}
 .thumbs .sign-off {
   float: right;
   padding-right: 0.5rem;
@@ -251,6 +284,7 @@ button a:hover {
   justify-items: center;
   height: 100%;
   width: 100%;
+  -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 /* Web Design section */
@@ -263,10 +297,12 @@ button a:hover {
   grid-template-columns: 3rem 1fr;
 }
 .tools .heading .fai {
+  -ms-flex-item-align: center;
   align-self: center;
   justify-self: start;
 }
 .tools .heading h4 {
+  -ms-flex-item-align: center;
   align-self: center;
   justify-self: start;
   color: #20557D;
@@ -298,6 +334,8 @@ button a:hover {
 }
 .process .lists {
   display: grid;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding-top: 1rem;
 }
@@ -306,11 +344,13 @@ button a:hover {
   grid-template-columns: 3rem 1fr;
 }
 .process .lists .card-title .svg-inline--fa {
+  -ms-flex-item-align: center;
   align-self: center;
   color: #20557D;
   font-size: 2rem;
 }
 .process .lists .card-title h4 {
+  -ms-flex-item-align: center;
   align-self: center;
   color: #20557D;
   font-size: 1.5rem;
@@ -336,15 +376,30 @@ button a:hover {
   padding: 1rem 0;
   line-height: 1.3;
 }
-.contact .contact-container .signature {
+.contact .contact-container p .signature {
   float: right;
   padding-top: 1rem;
+}
+.contact .contact-container .contact-form {
+  max-width: calc(96vw);
+}
+.contact .contact-container .contact-form input,
+.contact .contact-container .contact-form textarea {
+  border: 1px solid #090909;
+  border-radius: 10px;
+  margin: .2rem auto .8rem;
+  padding: .5rem;
+  width: 94%;
 }
 .contact label {
   padding-bottom: 0.3rem;
 }
 .contact .facebook-feed {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   padding-top: 3rem;
 }
@@ -417,10 +472,17 @@ footer .copyright {
 }
 .four0four {
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 .four0four .content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
   flex: 1 0 auto;
   padding: 2rem;
 }
@@ -442,6 +504,7 @@ footer .copyright {
   padding-bottom: 2rem;
 }
 .four0four .four-footer {
+  -ms-flex-negative: 0;
   flex-shrink: 0;
 }
 /* #################### Media Query for 600px; #################### */
@@ -502,6 +565,8 @@ footer .copyright {
   }
   .process .lists .process-card {
     display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .contact {
@@ -525,14 +590,27 @@ footer .copyright {
 }
 /* #################### Media Query for 768px; #################### */
 @media (min-width: 768px) {
+  /* Navigation */
+  .navbar .sub-nav {
+    display: none;
+  }
   /* Intro section */
   .intro {
-    padding: 2rem 5rem;
+    padding: 2rem 5rem 3rem;
   }
   .intro h3 {
     max-width: 70%;
     margin: 0 auto;
   }
+  /* Portfolio section */
+  .thumbs {
+    grid-template-rows: repeat(3, 1fr);
+    align-items: flex-start;
+  }
+  #portfolio {
+    padding-top: 3rem;
+  }
+  /* Tools section */
   .tools {
     padding: 1.5rem 4rem;
   }
@@ -555,6 +633,7 @@ footer .copyright {
   .process {
     padding: 1.5rem 3rem;
   }
+  /* Contact section */
   .contact {
     background-image: url("../images/graph-paper.jpg");
     background-size: cover;
@@ -578,6 +657,7 @@ footer .copyright {
     grid-area: feed;
     padding-top: 2rem;
   }
+  /* Footer */
   .footer-grid {
     grid-template-columns: 1fr 80px 1fr;
     grid-template-areas: "address icon social";
@@ -586,7 +666,9 @@ footer .copyright {
     display: grid;
     grid-area: icon;
     margin: 0 auto;
+    width: 5rem;
   }
+  /* Error page */
   .four0four .content {
     padding: 4rem;
   }
@@ -611,8 +693,14 @@ footer .copyright {
     margin-top: 3rem;
   }
   .intro .intro-wrapper .portrait {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-line-pack: center;
     align-content: center;
   }
   .intro .intro-wrapper .portrait img {
@@ -629,6 +717,9 @@ footer .copyright {
   }
   .thumbs {
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 3rem;
+    padding: 3rem 1rem;
   }
   .thumbs .overlay {
     display: grid;
@@ -640,30 +731,38 @@ footer .copyright {
     right: 0;
     height: 100%;
     width: 100%;
+    background-image: linear-gradient(120deg, #000 0%, #090909 25%, #20557D 100%);
     opacity: 0;
+    -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
-    background-color: #080808cc;
   }
   .thumbs .overlay p {
     color: #FFF;
   }
+  .thumbs .overlay p em {
+    font-size: 1rem;
+  }
   .thumbs .overlay-text:hover {
-    opacity: 0.9;
+    opacity: .9;
   }
   .thumbs .overlay:hover {
-    opacity: 1;
+    opacity: .95;
   }
   .thumbs .h-on-hover {
     color: #F3F3F3;
     font-size: 1.7em;
     position: absolute;
     top: 5%;
+    -webkit-transform: scale(1);
     transform: scale(1);
+    -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
   }
   .thumbs .h-on-hover:hover {
     color: #FFF;
+    -webkit-transform: scale(1.1);
     transform: scale(1.1);
+    -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
     text-decoration: underline;
   }
@@ -705,6 +804,13 @@ footer .copyright {
   }
   .intro .intro-wrapper {
     grid-column-gap: 5rem;
+  }
+  .thumbs .p-on-hover {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  .thumbs .p-on-hover em {
+    font-size: 1.3rem;
   }
   .tools-container {
     display: grid;
