@@ -1,4 +1,4 @@
-<div class="hero-area" id="navigation">
+<header class="hero-area" id="navigation">
 
 	<picture>
 		<source media="(min-width: 1200px)" srcset="images/hero-large.jpg, images/hero-large@2x.jpg 2x">
@@ -13,4 +13,4 @@
 			<h2>Web | Graphics | Photography</h2>
 		</div>
 	</div>
-</div>
+</header>
