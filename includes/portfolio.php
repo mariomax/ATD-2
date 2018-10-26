@@ -19,6 +19,13 @@
 	</div>
 </section>
 <section class="thumbs" id="portfolio">
+	<a href="https://www.anchortagdesign.com/wedgie" target="_blank" rel="nofollow noopener" class="overlay-text">
+		<img src="images/wedgehead-cap.jpg" alt="Wedgehead pinball arcade Portland">
+		<div class="overlay">
+			<h2 class="h-on-hover">Wedgehead</h2>
+			<p class="p-on-hover">Wedgehead is the premier pinball arcade in Portland, Oregon. Serving bad-ass bar food, stiff drinks, and cold beer. Home to 25 rotating pinball machines from all eras. Their site is a fast, mobile first web build.</p>   
+		</div>
+	</a>
 	<a href="https://www.beulahlandpdx.com" target="_blank" rel="nofollow noopener" class="overlay-text">
 		<img src="images/new-beulah.jpg" alt="Beulahland PDX">
 		<div class="overlay">
@@ -32,26 +39,19 @@
 		<h2 class="h-on-hover">Cascadia Piper</h2>
 		<p class="p-on-hover"><em>John Goff: The Cascadia Piper</em><br />A mobile first site was built from scratch with Twitter, Facebook and Schema markup to maximize SEO. A Facebook page feed, audio players, and an image gallery provide context. Contact info is above the fold for easy access.</p>   
 	</div>
-</a>
-<a href="http://www.pccbridge.com" target="_blank" rel="nofollow noopener" class="overlay-text">
-	<img src="images/bridge.jpg" alt="PCC's student newspaper The Bridge">
-	<div class="overlay">
-		<h2 class="h-on-hover">PCC's The Bridge</h2>
-		<p class="p-on-hover"><em>The Bridge:</em> the student newspaper of Portland Community College (PCC). The WordPress site is updated each term. Legacy documentation and a child theme provide future stability as new editors work on the project.<span class="sign-off">-30-</span></p>   
-	</div>
-</a>
-	<a href="http://www.anchortagdesign.com/boots4" target="_blank" rel="nofollow noopener" class="overlay-text">
-		<img src="images/boots-thumb.jpg" alt="bootstrap 4 template logo">
-		<div class="overlay">
-			<h2 class="h-on-hover">Bootstrap 4</h2>
-			<p class="p-on-hover">This sample site is built with Bootstrap 4, a popular and versitile framework for web development. It features HTML &amp; CSS templates for forms, buttons, navigation systems other elements for building responsive web design.</p>   
-		</div>
 	</a>
 	<a href="https://www.worldwidewario.com/cms" target="_blank" rel="nofollow noopener" class="overlay-text">
 		<img src="images/maynard.jpg" alt="the range finder">
 		<div class="overlay">
 			<h2 class="h-on-hover">Maynard's site</h2> 
 			<p class="p-on-hover">This is <em>Craig Maynard Scott's</em> photography portfolio. Currently, it's just sample images &amp; placeholder text. Live site coming fall 2018. Features: mobile first design, image galleries, and social media links.</p>   
+		</div>
+	</a>
+	<a href="http://www.anchortagdesign.com/boots4" target="_blank" rel="nofollow noopener" class="overlay-text">
+		<img src="images/boots-thumb.jpg" alt="bootstrap 4 template logo">
+		<div class="overlay">
+			<h2 class="h-on-hover">Bootstrap 4</h2>
+			<p class="p-on-hover">This sample site is built with Bootstrap 4, a popular and versitile framework for web development. It features HTML &amp; CSS templates for forms, buttons, navigation systems other elements for building responsive web design.</p>   
 		</div>
 	</a>
 	<a href="https://www.anchortagdesign.com/ace" target="_blank" rel="nofollow noopener" class="overlay-text">
