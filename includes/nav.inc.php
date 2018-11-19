@@ -1,5 +1,5 @@
 <div class="top-nav">
-	<a class="navbar-brand" id="a-tag" data-value="navigation" href="index.php">
+	<a class="navbar-brand" id="a-tag" data-value="navigation" href="https://www.anchortagdesign.com/index.php">
 		<img src="images/navicon.svg" alt="anchor tag design icon">
 	</a>
 	<div class="toggle-button" id="toggle">

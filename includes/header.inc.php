@@ -10,7 +10,7 @@
 	<div class="header-text">
 		<div class="titles">
 			<h1>Anchor Tag Design</h1>
-			<h2>Web | Graphics | Photography</h2>
+			<h2>Web &amp; Graphics | PDX, OR</h2>
 		</div>
 	</div>
 </header>
