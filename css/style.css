@@ -84,7 +84,7 @@ button {
   box-shadow: 2px 2px 5px #090909;
   font-family: "Titillium Web", sans-serif;
   font-size: 1.2rem;
-  padding: 1rem;
+  padding: .5rem 1rem;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all 0.5s ease-in-out;
@@ -215,7 +215,8 @@ button a:hover {
   box-shadow: 2px 2px 5px #090909;
   font-family: "Titillium Web", sans-serif;
   font-size: 1.2rem;
-  padding: 1rem;
+  padding: .5rem 1rem;
+  text-decoration: none;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all 0.5s ease-in-out;
@@ -246,6 +247,7 @@ button a:hover {
   font-size: 2em;
   padding-top: 0.5em;
   font-weight: 600;
+  text-align: center;
 }
 .thumbs .h-on-hover:hover {
   color: #20557D;
@@ -264,7 +266,7 @@ button a:hover {
   padding: 1rem;
 }
 .thumbs p em {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 .thumbs .sign-off {
   float: right;

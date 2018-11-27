@@ -9,7 +9,7 @@
 			<em>[that's the goal]</em></p>
 			<p>Let's get together and build your site...</p>
 			<div class="cta-button">
-				<a href="https://www.anchortagdesign.com/#contact" class="button" data-value="contact">Connect</a>
+				<a href="https://www.anchortagdesign.com/contact/index.php" class="button" data-value="contact">Connect</a>
 			</div>
 		</div>
 		<div class="portrait">

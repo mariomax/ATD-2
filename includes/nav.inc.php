@@ -16,7 +16,7 @@
 				<a href="../index.php#portfolio" data-value="portfolio" id="nav-link">Portfolio</a>
 			</li>
 			<li>
-				<a href="../web-tools/index.php">Web Tools<br /><span class="sub-nav">The TL; DR of web dev</span></a>
+				<a href="../web-tools/index.php">Web Tools<br /><span class="sub-nav">The TL; DR of Web Dev</span></a>
 			</li>
 			<li>
 				<a href="../contact/index.php">Contact</a>
