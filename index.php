@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 	<meta name="author" content="Mario Lopriore" />
-	<meta name="description" content="Anchor Tag Design: Web Design | Photography | Graphic Design" />
+	<meta name="description" content="Anchor Tag Design: Independent Web & Graphic Design" />
 	<meta name="keywords" content="portland web designer, website design, freelance web design, graphic design, digital photography, web designers, portfolio websites, custom web sites, small business websites, Portland Oregon" />
 	
 	<title>Anchor Tag Design</title>

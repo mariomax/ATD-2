@@ -80,6 +80,7 @@ button {
   background: #20557D;
   color: #FFF;
   border-radius: 10px;
+  border-style: none;
   -webkit-box-shadow: 2px 2px 5px #090909;
   box-shadow: 2px 2px 5px #090909;
   font-family: "Titillium Web", sans-serif;
@@ -211,6 +212,7 @@ button a:hover {
   background: #20557D;
   color: #FFF;
   border-radius: 10px;
+  border-style: none;
   -webkit-box-shadow: 2px 2px 5px #090909;
   box-shadow: 2px 2px 5px #090909;
   font-family: "Titillium Web", sans-serif;
@@ -387,7 +389,7 @@ button a:hover {
 }
 .contact .contact-container .contact-form input,
 .contact .contact-container .contact-form textarea {
-  border: 1px solid #090909;
+  border: 1px solid #5B5B5B;
   border-radius: 10px;
   margin: .2rem auto .8rem;
   padding: .5rem;
@@ -488,6 +490,10 @@ footer .copyright {
   flex: 1 0 auto;
   padding: 2rem;
 }
+.four0four .content img {
+  max-width: 100%;
+  margin: 0 auto;
+}
 .four0four .content figcaption {
   color: #090909;
   font-size: 0.8rem;
@@ -504,6 +510,9 @@ footer .copyright {
   font-family: "Noto Serif", serif;
   line-height: 1.5rem;
   padding-bottom: 2rem;
+}
+.four0four .content .return {
+  padding: .5rem .7rem;
 }
 .four0four .four-footer {
   -ms-flex-negative: 0;

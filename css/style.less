@@ -83,6 +83,7 @@ button {
   background: @blue;
   color: @white;
   border-radius: 10px;
+  border-style: none;
   -webkit-box-shadow: 2px 2px 5px @dark;
           box-shadow: 2px 2px 5px @dark;
   font-family: "Titillium Web", sans-serif;
@@ -226,6 +227,7 @@ button {
       background: @blue;
       color: @white;
       border-radius: 10px;
+      border-style: none;
       -webkit-box-shadow: 2px 2px 5px @dark;
               box-shadow: 2px 2px 5px @dark;
       font-family: "Titillium Web", sans-serif;
@@ -413,7 +415,7 @@ button {
       max-width: calc(100vw - 4rem);
       input,
       textarea {
-        border: 1px solid @dark;
+        border: 1px solid @mid;
         border-radius: 10px;
         margin: .2rem auto .8rem;
         padding: .5rem;
@@ -521,6 +523,10 @@ footer {
         -ms-flex: 1 0 auto;
             flex: 1 0 auto;
     padding: 2rem;
+    img {
+      max-width: 100%;
+      margin: 0 auto;
+    }
     figcaption {
       color: @dark;
       font-size: 0.8rem;
@@ -537,6 +543,9 @@ footer {
       font-family: "Noto Serif", serif;
       line-height: 1.5rem;
       padding-bottom: 2rem;
+    }
+    .return {
+      padding: .5rem .7rem;
     }
   }
   .four-footer {
