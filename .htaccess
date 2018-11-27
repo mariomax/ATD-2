@@ -17,3 +17,7 @@ AddOutputFilterByType DEFLATE application/x-javascript
 <files *.html>
 SetOutputFilter DEFLATE
 </files>
+
+# Fix for MIME types .css files being read as ('text/html'):
+AddType text/css .css
+AddType application/javascript .js
