@@ -3,10 +3,11 @@
 	<h3>Designed & built for artists, small businesses, and the service industry</h3>
 	<div class="intro-wrapper">
 		<div class="intro-para">
-			<p>A site built with custom graphic design and digital photography enhance the uniqueness of your brand.<br />
+			<p>A site built with custom graphic design and digital photography will enhance the uniqueness of your brand.<br />
 			<em>[that's the plan]</em></p>
 			<p>A site designed with your business' customers in mind draws traffic.<br />
 			<em>[that's the goal]</em></p>
+			<p>Before slinging code I studied "applied art" - photography, graphic design, screen printing, etc. I've accumulated decades of experience in the print and service industries. My skills in visual communication became the catalyst for my transition into web design. &#35;ilovewhatido</p>
 			<p>Let's get together and build your site...</p>
 			<div class="cta-button">
 				<a href="https://www.anchortagdesign.com/contact/index.php" class="button" data-value="contact">Connect</a>

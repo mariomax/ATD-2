@@ -84,6 +84,9 @@ Programmer: Mario Lopriore
   color: #FFF;
   text-decoration: none;
 }
+.overlay-nav ul li a:hover {
+  color: #EB4625;
+}
 @media (min-width: 768px) {
   /* Navigation */
   .top-nav {

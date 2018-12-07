@@ -182,7 +182,7 @@ button {
       align-items: flex-end;
   text-align: center;
   .titles {
-    padding: 0 2rem 4rem;
+    padding: 0 2rem 5rem;
   }
   h1 {
     color: @white;
@@ -546,6 +546,16 @@ footer {
   .four-footer {
     -ms-flex-negative: 0;
         flex-shrink: 0;
+  }
+}
+
+/* #################### Media Query for 380px; #################### */
+
+@media (min-width: 380px) {
+  .header-text {
+    .titles {
+      padding: 0 2rem 4rem;
+    }
   }
 }
 

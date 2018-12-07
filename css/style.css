@@ -173,7 +173,7 @@ button a:hover {
   text-align: center;
 }
 .header-text .titles {
-  padding: 0 2rem 4rem;
+  padding: 0 2rem 5rem;
 }
 .header-text h1 {
   color: #FFF;
@@ -511,6 +511,12 @@ footer .copyright {
 .four0four .four-footer {
   -ms-flex-negative: 0;
   flex-shrink: 0;
+}
+/* #################### Media Query for 380px; #################### */
+@media (min-width: 380px) {
+  .header-text .titles {
+    padding: 0 2rem 4rem;
+  }
 }
 /* #################### Media Query for 600px; #################### */
 @media (min-width: 600px) {
