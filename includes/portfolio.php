@@ -1,9 +1,9 @@
 <section class="intro">
 	<h2>Web Projects:</h2>
-	<h3>Designed & built for artists, small businesses, and the service industry</h3>
+	<h3>Designed and built for artists, makers, small businesses, and the service industry</h3>
 	<div class="intro-wrapper">
 		<div class="intro-para">
-			<p>A site built with custom graphic design and digital photography will enhance the uniqueness of your brand.<br />
+			<p>A site built with custom graphics &amp; digital photography will enhance the uniqueness of your brand.<br />
 			<em>[that's the plan]</em></p>
 			<p>A site designed with your business' customers in mind draws traffic.<br />
 			<em>[that's the goal]</em></p>
