@@ -117,7 +117,7 @@ button a:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 4rem;
+  height: 10vh;
   padding: 0 2rem;
   top: 0;
   z-index: 2;
@@ -149,13 +149,13 @@ button a:hover {
 /* Header & hero image */
 .hero-area {
   position: relative;
-  width: 100%;
   margin: 0;
+  overflow: hidden;
 }
 .hero-area img {
   display: block;
-  width: 100%;
-  height: auto;
+  height: 90vh;
+  width: auto;
 }
 .header-text {
   position: absolute;
@@ -168,22 +168,16 @@ button a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   text-align: center;
 }
 .header-text .titles {
-  background: #22222277;
-  border-radius: 20px;
-  padding: 1rem;
+  padding: 0 2rem 4rem;
 }
 .header-text h1 {
   color: #FFF;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   /* position: absolute; */
   padding-bottom: 1rem;
@@ -520,6 +514,15 @@ footer .copyright {
 }
 /* #################### Media Query for 600px; #################### */
 @media (min-width: 600px) {
+  /* Navigation */
+  .top-nav {
+    height: 4rem;
+  }
+  /* Hero area */
+  .hero-area img {
+    height: auto;
+    width: 100%;
+  }
   /* Intro section */
   .intro {
     padding: 3rem;
@@ -605,6 +608,13 @@ footer .copyright {
   .navbar .sub-nav {
     display: none;
   }
+  /* Hero area */
+  .hero-area img {
+    padding-top: 64px;
+  }
+  .header-text .titles {
+    padding: 2rem;
+  }
   /* Intro section */
   .intro {
     padding: 2rem 5rem 3rem;
@@ -616,6 +626,8 @@ footer .copyright {
   /* Portfolio section */
   .thumbs {
     grid-template-rows: repeat(3, 1fr);
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
   }
   #portfolio {
@@ -781,7 +793,7 @@ footer .copyright {
     color: #F3F3F3;
     position: absolute;
     top: 12%;
-    padding: 2rem;
+    padding: 2rem 2.5rem;
     line-height: 1.5;
   }
   .tools {

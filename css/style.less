@@ -121,7 +121,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 4rem;
+  height: 10vh;
   padding: 0 2rem;
   top: 0;
   z-index: 2;
@@ -157,12 +157,13 @@ button {
 
 .hero-area {
   position: relative;
-  width: 100%;
   margin: 0;
+  overflow: hidden;
+  // width: 100%;
   img {
     display: block;
-    width: 100%;
-    height: auto;
+    height: 90vh;
+    width: auto;
   }
 }
 
@@ -177,21 +178,15 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+      justify-content: flex-end;
+      align-items: flex-end;
   text-align: center;
   .titles {
-    background: #22222277;
-    border-radius: 20px;
-    padding: 1rem;
+    padding: 0 2rem 4rem;
   }
   h1 {
     color: @white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     /* position: absolute; */
     padding-bottom: 1rem;
@@ -557,6 +552,17 @@ footer {
 /* #################### Media Query for 600px; #################### */
 
 @media (min-width: 600px) {
+/* Navigation */
+.top-nav {
+  height: 4rem;
+}
+/* Hero area */
+.hero-area {
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
 /* Intro section */
   .intro {
     padding: 3rem;
@@ -647,6 +653,17 @@ footer {
       display: none;
     }
   }
+  /* Hero area */
+  .hero-area {
+    img {
+      padding-top: 64px;
+    }
+  }
+  .header-text {
+    .titles {
+      padding: 2rem;
+    }
+  }
   /* Intro section */
   .intro {
     padding: 2rem 5rem 3rem;
@@ -658,7 +675,9 @@ footer {
   /* Portfolio section */
   .thumbs {
     grid-template-rows: repeat(3, 1fr);
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   #portfolio {
     padding-top: 3rem;
@@ -831,7 +850,7 @@ footer {
       color: @light;
       position: absolute;
       top: 12%;
-      padding: 2rem;
+      padding: 2rem 2.5rem;
       line-height: 1.5;
     }
   }
