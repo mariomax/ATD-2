@@ -34,18 +34,18 @@
 			<p class="p-on-hover">A new print and digital publication connecting adventurous souls, curious cooks, and enthusiastic eaters with talented writers, artists, cartoonists, and photographers who explore not only the how-to’s of cooking, but the why’s of eating. A WordPress blog &amp; shop.</p>   
 		</div>
 	</a>
-	<a href="https://www.cascadiapiper.com" target="_blank" rel="nofollow noopener" class="overlay-text">
-		<img src="images/piper.jpg" alt="John Goff: the Cascadia Piper">
-		<div class="overlay">
-			<h2 class="h-on-hover">Cascadia Piper</h2>
-			<p class="p-on-hover"><em>John Goff: The Cascadia Piper</em><br />A mobile first site was built from scratch with Twitter, Facebook and Schema markup to maximize SEO. A Facebook page feed, audio players, and an image gallery provide context. Contact info is above the fold for easy access.</p>   
-		</div>
-	</a>
 	<a href="https://www.beulahlandpdx.com" target="_blank" rel="nofollow noopener" class="overlay-text">
 		<img src="images/new-beulah.jpg" alt="Beulahland PDX">
 		<div class="overlay">
 			<h2 class="h-on-hover">Beulahland</h2>
 			<p class="p-on-hover">Beulahland is a unique, family-owned, old-school Portland restaurant and lounge. This responsive WordPress site features blog categories for publishing fresh content and a built-in social media sidebar.</p>   
+		</div>
+	</a>
+	<a href="https://www.pccbridge.com" target="_blank" rel="nofollow noopener" class="overlay-text">
+		<img src="images/bridge.jpg" alt="PCC's Student Newspaper">
+		<div class="overlay">
+			<h2 class="h-on-hover">PCC's The Bridge</h2>
+			<p class="p-on-hover"><em>The Bridge:</em>the student newspaper of Portland Community College (PCC). The WordPress site is updated each term. Legacy documentation and a child theme provide future stability as new editors work on the project.<span class="sign-off">-30-</span></p>   
 		</div>
 	</a>
 	<a href="https://www.worldwidewario.com/cms" target="_blank" rel="nofollow noopener" class="overlay-text">
