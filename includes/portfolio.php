@@ -45,7 +45,7 @@
 		<img src="images/bridge.jpg" alt="PCC's Student Newspaper">
 		<div class="overlay">
 			<h2 class="h-on-hover">PCC's The Bridge</h2>
-			<p class="p-on-hover"><em>The Bridge:</em>the student newspaper of Portland Community College (PCC). The WordPress site is updated each term. Legacy documentation and a child theme provide future stability as new editors work on the project.<span class="sign-off">-30-</span></p>   
+			<p class="p-on-hover"><em>The Bridge:</em> the student newspaper of Portland Community College (PCC). The WordPress site is updated each term. Legacy documentation and a child theme provide future stability as new editors work on the project.<span class="sign-off">-30-</span></p>   
 		</div>
 	</a>
 	<a href="https://www.worldwidewario.com/cms" target="_blank" rel="nofollow noopener" class="overlay-text">

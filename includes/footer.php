@@ -31,10 +31,11 @@
 		</section>
 		<section class="address">
 			<h5>Mailing address:</h5>
+			<p><strong>Alberta Arts District</strong></p>
 			<p>P.O. Box 11483
 				<br> Portland, OR 97211</p>
-			<p><span class="copyright">&copy;</span>&nbsp;<?php echo date("Y"); ?> Anchor Tag Design</p>
 		</section>
+		<p class="copy"><span class="copyright">&copy;</span>&nbsp;<?php echo date("Y"); ?> Anchor Tag Design</p>
 	</div>
 
 </footer>

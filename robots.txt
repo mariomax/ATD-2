@@ -1,5 +1,4 @@
 User-agent: *
 Sitemap: https://www.anchortagdesign.com/sitemap.xml
-Disallow: /contact/
 Disallow: /includes/db.inc.php
 Disallow: /phpmailer

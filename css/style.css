@@ -438,6 +438,8 @@ footer p {
   text-align: center;
 }
 footer h4 {
+  display: flex;
+  justify-content: space-around;
   text-align: center;
 }
 footer h4 a {
@@ -448,21 +450,24 @@ footer h4 a:hover {
 }
 footer .svg-inline--fa {
   display: inline-block;
-  margin: 0.2rem 1.1rem;
+  margin: 1.1rem;
   font-size: 2rem;
 }
 footer .svg-inline--fa:hover {
   color: #EB4625;
   text-decoration: none;
 }
-footer .address h5 {
-  display: none;
-}
 footer .icon img {
   display: none;
 }
 footer .social {
-  padding: 0.5rem 0px;
+  padding: 0.7rem;
+}
+footer .address {
+  padding: 0.7rem;
+}
+footer .address h5 {
+  display: none;
 }
 footer .copyright {
   font-size: 1.5rem;
@@ -596,16 +601,22 @@ footer .copyright {
   .footer-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "address social";
+    grid-template-rows: repeat(2, 50px);
+    grid-template-areas: "address social" "address copy";
   }
   .footer-grid .address {
     grid-area: address;
+    align-self: center;
     justify-self: center;
   }
   .footer-grid .social {
     grid-area: social;
     justify-self: center;
     padding-top: 0;
+  }
+  .footer-grid .copy {
+    grid-area: copy;
+    padding-top: 10px;
   }
 }
 /* #################### Media Query for 768px; #################### */
@@ -689,12 +700,16 @@ footer .copyright {
   /* Footer */
   .footer-grid {
     grid-template-columns: 1fr 80px 1fr;
-    grid-template-areas: "address icon social";
+    grid-template-rows: 50px 50px;
+    grid-template-areas: "address icon social" "address icon copy";
+  }
+  .footer-grid .icon {
+    align-self: center;
+    justify-self: center;
+    grid-area: icon;
   }
   .footer-grid .icon img {
     display: grid;
-    grid-area: icon;
-    margin: 0 auto;
     width: 5rem;
   }
   /* Error page */
