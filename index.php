@@ -24,6 +24,14 @@
 	<meta name="twitter:title" content="Portland Oregon Web Designer and Photographer" />
 	<meta name="twitter:description" content="Freelance web design, graphics, and photography for artists, makers and small businesses. Mobile first and WordPress sites, custom graphics, and digital photography." />
 	<meta name="twitter:image" content="https://www.anchortagdesign.com/linkedin-og-image.png" />
+	
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-T6QQTPQ');</script>
+	<!-- End Google Tag Manager -->
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-97175852-2"></script>
@@ -102,6 +110,11 @@
 	
 </head>
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6QQTPQ"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
 	<?php include 'includes/nav.php'; ?>
 	<?php include 'includes/header.php'; ?>
 	<?php include 'includes/portfolio.php'; ?>
