@@ -27,11 +27,11 @@
 			<p class="p-on-hover">Wedgehead is the premier pinball arcade in Portland, Oregon. Serving bad-ass bar food, stiff drinks, and cold beer. Home to 25 rotating pinball machines from all eras. Their site is a fast, mobile first web build.</p>   
 		</div>
 	</a>
-	<a href="https://www.kitchentablemagazine.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="Kitchen Table Magazine">
-		<img src="images/ktm-card.jpg" alt="Kitchen Table Magazine Kickstarter">
+	<a href="https://leathaconsulting.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Leatha Consulting LLC">
+		<img src="images/leatha-consulting.jpg" alt="Leatha Consulting LLC | Digital Forensics">
 		<div class="overlay">
-			<h2 class="h-on-hover">Kitchen Table Magazine</h2>
-			<p class="p-on-hover">A new print and digital publication connecting adventurous souls, curious cooks, and enthusiastic eaters with talented writers, artists, cartoonists, and photographers who explore not only the how-to’s of cooking, but the why’s of eating. A WordPress blog &amp; shop.</p>   
+			<h2 class="h-on-hover">Leatha Consulting LLC</h2> 
+			<p class="p-on-hover">This company specializes in professional eDiscovery Consulting and Digital Forensics. They wanted a site that's clean, fast and to-the-point. WordPress provides that and makes it easy to add more pages / content as they grow.</p>   
 		</div>
 	</a>
 	<a href="http://www.beulahlandpdx.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="Beulahland">
@@ -41,18 +41,18 @@
 			<p class="p-on-hover">Beulahland is a unique, family-owned, old-school Portland restaurant and lounge. This responsive WordPress site features blog categories for publishing fresh content and a built-in social media sidebar.</p>   
 		</div>
 	</a>
+	<a href="https://www.kitchentablemagazine.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="Kitchen Table Magazine">
+		<img src="images/ktm-card.jpg" alt="Kitchen Table Magazine Kickstarter">
+		<div class="overlay">
+			<h2 class="h-on-hover">Kitchen Table Magazine</h2>
+			<p class="p-on-hover">A new print and digital publication connecting adventurous souls, curious cooks, and enthusiastic eaters with talented writers, artists, cartoonists, and photographers who explore not only the how-to’s of cooking, but the why’s of eating. A WordPress blog &amp; shop.</p>   
+		</div>
+	</a>
 	<a href="https://www.ashleyowenphoto.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Ashley Owen Photo">
 		<img src="images/ashley.jpg" alt="Ashley Owen Photo">
 		<div class="overlay">
 			<h2 class="h-on-hover">Ashley Owen Photo</h2>
 			<p class="p-on-hover"><em>Ashley's</em> site is a completely bare-bones WordPress build with custom post templates designed to make adding more galleries a snap. Features: responsive design, minimal &amp; clean lightbox styling, and social media links.</p>   
-		</div>
-	</a>
-	<a href="https://www.worldwidewario.com/cms" target="_blank" rel="nofollow noopener" class="overlay-text" title="Craig Maynard Scott's Photo site">
-		<img src="images/maynard.jpg" alt="the range finder">
-		<div class="overlay">
-			<h2 class="h-on-hover">Maynard's site</h2> 
-			<p class="p-on-hover">This is <em>Craig Maynard Scott's</em> photography portfolio. Currently, it's just sample images &amp; placeholder text. Live site coming fall 2018. Features: mobile first design, image galleries, and social media links.</p>   
 		</div>
 	</a>
 	<a href="https://www.pccbridge.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="The Bridge: PCC's Student Newspaper">
