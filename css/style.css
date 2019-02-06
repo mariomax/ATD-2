@@ -720,8 +720,8 @@ footer .copyright {
     padding-bottom: 3rem;
   }
 }
-/* #################### Media Query for 900px; #################### */
-@media (min-width: 900px) {
+/* #################### Media Query for 1024px; #################### */
+@media (min-width: 1024px) {
   .intro h3 {
     max-width: 50%;
   }
@@ -766,8 +766,9 @@ footer .copyright {
     padding: 3rem 1rem;
   }
   .thumbs .overlay {
-    display: grid;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -795,8 +796,6 @@ footer .copyright {
   .thumbs .h-on-hover {
     color: #F3F3F3;
     font-size: 1.7em;
-    position: absolute;
-    top: 5%;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: all 0.5s ease-in-out;
@@ -812,9 +811,7 @@ footer .copyright {
   }
   .thumbs .p-on-hover {
     color: #F3F3F3;
-    position: absolute;
-    top: 12%;
-    padding: 2rem 2.5rem;
+    padding: 2.5rem;
     line-height: 1.5;
   }
   .tools {
