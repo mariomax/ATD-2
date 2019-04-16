@@ -27,11 +27,11 @@
 			<p class="p-on-hover">Wedgehead is the premier pinball arcade in Portland, Oregon. Serving bad-ass bar food, stiff drinks, and cold beer. Home to 25 rotating pinball machines from all eras. Their site is a fast, mobile first web build.</p>   
 		</div>
 	</a>
-	<a href="https://leathaconsulting.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Leatha Consulting LLC">
-		<img src="images/leatha-consulting.jpg" alt="Leatha Consulting LLC | Digital Forensics">
+	<a href="https://www.dmgn.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="DMG North: Innovative HVAC Solutions">
+		<img src="images/dmgn.jpg" alt="DMG North">
 		<div class="overlay">
-			<h2 class="h-on-hover">Leatha Consulting LLC</h2> 
-			<p class="p-on-hover">This company specializes in professional eDiscovery Consulting and Digital Forensics. They wanted a site that's clean, fast and to-the-point. WordPress provides that and makes it easy to add more pages / content as they grow.</p>   
+			<h2 class="h-on-hover">DMG North</h2>
+			<p class="p-on-hover">DMG North is a manufacturers’ representative for custom engineered, high quality Heating, Ventilating and A/C (HVAC) equipment. This responsive site features training session registration and multiple contact options including built-in text used to connect with tech support.</p>   
 		</div>
 	</a>
 	<a href="http://www.beulahlandpdx.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="Beulahland">
@@ -39,6 +39,13 @@
 		<div class="overlay">
 			<h2 class="h-on-hover">Beulahland</h2>
 			<p class="p-on-hover">Beulahland is a unique, family-owned, old-school Portland restaurant and lounge. This responsive WordPress site features blog categories for publishing fresh content and a built-in social media sidebar.</p>   
+		</div>
+	</a>
+	<a href="https://leathaconsulting.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Leatha Consulting LLC">
+		<img src="images/leatha-consulting.jpg" alt="Leatha Consulting LLC | Digital Forensics">
+		<div class="overlay">
+			<h2 class="h-on-hover">Leatha Consulting LLC</h2> 
+			<p class="p-on-hover">This company specializes in professional eDiscovery Consulting and Digital Forensics. They wanted a site that's clean, fast and to-the-point. WordPress provides that and makes it easy to add more pages / content as they grow.</p>   
 		</div>
 	</a>
 	<a href="https://www.kitchentablemagazine.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="Kitchen Table Magazine">
@@ -53,13 +60,6 @@
 		<div class="overlay">
 			<h2 class="h-on-hover">Ashley Owen Photo</h2>
 			<p class="p-on-hover"><em>Ashley's</em> site is a completely bare-bones WordPress build with custom post templates designed to make adding more galleries a snap. Features: responsive design, minimal &amp; clean lightbox styling, and social media links.</p>   
-		</div>
-	</a>
-	<a href="https://www.pccbridge.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="The Bridge: PCC's Student Newspaper">
-		<img src="images/bridge.jpg" alt="PCC's Student Newspaper">
-		<div class="overlay">
-			<h2 class="h-on-hover">PCC's The Bridge</h2>
-			<p class="p-on-hover"><em>The Bridge:</em> the student newspaper of Portland Community College (PCC). The WordPress site is updated each term. Legacy documentation and a child theme provide future stability as new editors work on the project.<span class="sign-off">-30-</span></p>   
 		</div>
 	</a>
 </section>
