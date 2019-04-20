@@ -1,13 +1,13 @@
 <section class="intro">
-	<h2>Web Projects:</h2>
+	<h2>Web Design Projects:</h2>
 	<h3>Designed and built for artists, makers, small businesses, and the service industry</h3>
 	<div class="intro-wrapper">
 		<div class="intro-para">
-			<p>A site built with custom graphics &amp; digital photography will enhance the uniqueness of your brand.<br />
+			<p>A site built with custom graphics &amp; photography will enhance the uniqueness of your brand.<br />
 			<em>[that's the plan]</em></p>
 			<p>A site designed with your business' customers in mind draws traffic.<br />
 			<em>[that's the goal]</em></p>
-			<p>Before slinging code I studied "applied art" - photography, graphic design, screen printing, etc. I've accumulated decades of experience in the print and service industries. My skills in visual communication became the catalyst for my transition into web design. &#35;ilovewhatido</p>
+			<p>For years I studied and worked in “applied art” - photography, graphic and print design, screen printing, etc. This became the foundation for my transition into web design. The catalyst was the desire to “digitize” my skills for the modern workplace. I've accumulated decades of experience in the print and service industries in Portland and leveraging this accumulated know-how is the value added benefit I bring to my clients.<br/>&#35;ilovewhatido</p>
 			<p>Let's get together and build your site...</p>
 			<div class="cta-button">
 				<a href="https://www.anchortagdesign.com/contact/index.php" class="button" data-value="contact">Connect</a>
