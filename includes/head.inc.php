@@ -29,9 +29,8 @@
 	gtag('config', 'UA-97175852-2');
 </script>
 
-<!-- Google Fonts, Bootstrap 4 CDN, and Font Awesome! -->
+<!-- Google Fonts and Font Awesome! -->
 <link href="https://fonts.googleapis.com/css?family=Neuton:400,400i,700|Share:400,700" rel="stylesheet">
-<link async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 
 <!-- Stylesheets in the css folder -->

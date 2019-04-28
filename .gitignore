@@ -7,3 +7,6 @@ includes/db.inc.php
 # These 2 encrypted keys:
 server.cert
 server.key
+# Don't upload images to GitHub...
+# You get green squares, but they don't need to be up there.
+images/

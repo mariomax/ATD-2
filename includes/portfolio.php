@@ -34,6 +34,13 @@
 			<p class="p-on-hover">DMG North is a manufacturers’ representative for custom engineered, high quality Heating, Ventilating and A/C (HVAC) equipment. This responsive site features training session registration and multiple contact options including built-in text used to connect with tech support.</p>   
 		</div>
 	</a>
+	<a href="https://saucyjewelry.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Saucy Jewelry">
+		<img src="images/saucy-card.jpg" alt="Saucy Jewelry | Alpine, Oregon">
+		<div class="overlay">
+			<h2 class="h-on-hover">Saucy Jewelry</h2>
+			<p class="p-on-hover">Elisa’s styling on Elisa's site allows the jewelry to shine - literally. The minimal color scheme comes from the natural backdrops in her photos. The eCommerce shop features over 100 handmade items: rings, pendants, earrings and bracelets. Most of these have variations - finish, size, gemstone selection, etc.</p>   
+		</div>
+	</a>
 	<a href="http://www.beulahlandpdx.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="Beulahland">
 		<img src="images/new-beulah.jpg" alt="Beulahland PDX">
 		<div class="overlay">
@@ -62,4 +69,19 @@
 			<p class="p-on-hover"><em>Ashley's</em> site is a completely bare-bones WordPress build with custom post templates designed to make adding more galleries a snap. Features: responsive design, minimal &amp; clean lightbox styling, and social media links.</p>   
 		</div>
 	</a>
+	<a href="https://www.pccbridge.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="The Bridge: PCC's Student Newspaper">
+		<img src="images/bridge.jpg" alt="Ashley Owen Photo">
+		<div class="overlay">
+			<h2 class="h-on-hover">PCC's The Bridge</h2>
+			<p class="p-on-hover"><em>The Bridge:</em> the student newspaper of Portland Community College (PCC). The WordPress site is updated each term. Legacy documentation and a child theme provide future stability as new editors work on the project. #givingback<span class="sign-off">-30-</span></p>   
+		</div>
+	</a>
+	<a href="https://www.anchortagdesign.com/contact/" class="overlay-text" title="Your Project">
+		<img src="images/your-project.jpg" alt="Google audit on Anchor Tag Design">
+		<div class="overlay">
+			<h2 class="h-on-hover">Your Project...</h2>
+			<p class="p-on-hover">Let's get your web project started. Do you need a site that's simply an online business card or something more involved, maybe with a shop? <em>Anchor Tag Design</em> focuses on a critical factor of anyone's web presence - the site’s visitors.</p>   
+		</div>
+	</a>
 </section>
+
