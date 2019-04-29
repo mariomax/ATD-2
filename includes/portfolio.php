@@ -38,7 +38,7 @@
 		<img src="images/saucy-card.jpg" alt="Saucy Jewelry | Alpine, Oregon">
 		<div class="overlay">
 			<h2 class="h-on-hover">Saucy Jewelry</h2>
-			<p class="p-on-hover">Elisa’s styling on Elisa's site allows the jewelry to shine - literally. The minimal color scheme comes from the natural backdrops in her photos. The eCommerce shop features over 100 handmade items: rings, pendants, earrings and bracelets. Most of these have variations - finish, size, gemstone selection, etc.</p>   
+			<p class="p-on-hover">The styling on Elisa's site allows the jewelry to shine - literally. The minimal color scheme comes from the natural backdrops in her photos. The eCommerce shop features over 100 handmade items: rings, pendants, earrings and bracelets. Most of these have variations - finish, size, gemstone selection, etc. The visitor picks their piece...</p>   
 		</div>
 	</a>
 	<a href="http://www.beulahlandpdx.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="Beulahland">
@@ -80,7 +80,7 @@
 		<img src="images/your-project.jpg" alt="Google audit on Anchor Tag Design">
 		<div class="overlay">
 			<h2 class="h-on-hover">Your Project...</h2>
-			<p class="p-on-hover">Let's get your web project started. Do you need a site that's simply an online business card or something more involved, maybe with a shop? <em>Anchor Tag Design</em> focuses on a critical factor of anyone's web presence - the site’s visitors.</p>   
+			<p class="p-on-hover">Let's get your web project started. Are you looking for a simple online business card or an eCommerce shop? Both are options... I focus on a critical, often overlooked factor of web presence: the site’s visitors. Other metrics are measurable (see graphic).</p>   
 		</div>
 	</a>
 </section>
