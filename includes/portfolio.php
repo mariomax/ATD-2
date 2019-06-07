@@ -62,18 +62,25 @@
 			<p class="p-on-hover">A new print and digital publication connecting adventurous souls, curious cooks, and enthusiastic eaters with talented writers, artists, cartoonists, and photographers who explore not only the how-to’s of cooking, but the why’s of eating. A WordPress blog &amp; shop.</p>   
 		</div>
 	</a>
-	<a href="https://www.ashleyowenphoto.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Ashley Owen Photo">
+	<!-- <a href="https://www.ashleyowenphoto.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Ashley Owen Photo">
 		<img src="images/ashley.jpg" alt="Ashley Owen Photo">
 		<div class="overlay">
 			<h2 class="h-on-hover">Ashley Owen Photo</h2>
 			<p class="p-on-hover"><em>Ashley's</em> site is a completely bare-bones WordPress build with custom post templates designed to make adding more galleries a snap. Features: responsive design, minimal &amp; clean lightbox styling, and social media links.</p>   
 		</div>
-	</a>
+	</a> -->
 	<a href="https://www.pccbridge.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="The Bridge: PCC's Student Newspaper">
 		<img src="images/bridge.jpg" alt="Ashley Owen Photo">
 		<div class="overlay">
 			<h2 class="h-on-hover">PCC's The Bridge</h2>
 			<p class="p-on-hover"><em>The Bridge:</em> the student newspaper of Portland Community College (PCC). The WordPress site is updated each term. Legacy documentation and a child theme provide future stability as new editors work on the project. #givingback<span class="sign-off">-30-</span></p>   
+		</div>
+	</a>
+	<a href="" target="_blank" rel="nofollow noopener" class="overlay-text" title="Helper Honey Logo">
+		<img src="images/beestie-circle.png" alt="Helper Honey Logo">
+		<div class="overlay">
+			<h2 class="h-on-hover">Helper Honey CBD</h2>
+			<p class="p-on-hover">Raw, full spectrum CBD grown in Oregon's beautiful Willamette Valley. "White label" CBD honey sticks, beeswax &amp; soy candles, and beeswax natural food wraps. Here's the logo - site to follow soon...</p>
 		</div>
 	</a>
 	<a href="https://www.anchortagdesign.com/contact/" class="overlay-text" title="Your Project">
