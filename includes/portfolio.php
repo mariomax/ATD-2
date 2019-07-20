@@ -27,6 +27,20 @@
 			<p class="p-on-hover">Wedgehead is the premier pinball arcade in Portland, Oregon. Serving bad-ass bar food, stiff drinks, and cold beer. Home to 25 rotating pinball machines from all eras. Their site is a fast, mobile first web build.</p>   
 		</div>
 	</a>
+	<a href="https://thegoodfoot.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Ashley Owen Photo">
+		<img src="images/goodfoot.jpg" alt="The Goodfoot">
+		<div class="overlay">
+			<h2 class="h-on-hover">The Goodfoot</h2>
+			<p class="p-on-hover">Serving SE Portland since 2001, The Goodfoot is a neighborhood staple. Live music &amp; DJs, great food, full bar, pool &amp; pinball, and daily happy hour. The site features months of music listings, the food menu, and art show updates - all in a mobile friendly format.</p>   
+		</div>
+	</a>
+	<a href="http://www.beulahlandpdx.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="Beulahland">
+		<img src="images/new-beulah.jpg" alt="Beulahland PDX">
+		<div class="overlay">
+			<h2 class="h-on-hover">Beulahland</h2>
+			<p class="p-on-hover">Beulahland is a unique, family-owned, old-school Portland restaurant and lounge. This responsive WordPress site features blog categories for publishing fresh content and a built-in social media sidebar.</p>   
+		</div>
+	</a>
 	<a href="https://www.dmgn.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="DMG North: Innovative HVAC Solutions">
 		<img src="images/dmgn.jpg" alt="DMG North">
 		<div class="overlay">
@@ -39,13 +53,6 @@
 		<div class="overlay">
 			<h2 class="h-on-hover">Saucy Jewelry</h2>
 			<p class="p-on-hover">The styling on Elisa's site allows the jewelry to shine - literally. The minimal color scheme comes from the natural backdrops in her photos. The eCommerce shop features over 100 handmade items: rings, pendants, earrings and bracelets. Most of these have variations - finish, size, gemstone selection, etc. The visitor picks their piece...</p>   
-		</div>
-	</a>
-	<a href="http://www.beulahlandpdx.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="Beulahland">
-		<img src="images/new-beulah.jpg" alt="Beulahland PDX">
-		<div class="overlay">
-			<h2 class="h-on-hover">Beulahland</h2>
-			<p class="p-on-hover">Beulahland is a unique, family-owned, old-school Portland restaurant and lounge. This responsive WordPress site features blog categories for publishing fresh content and a built-in social media sidebar.</p>   
 		</div>
 	</a>
 	<a href="https://leathaconsulting.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Leatha Consulting LLC">
@@ -69,13 +76,13 @@
 			<p class="p-on-hover"><em>Ashley's</em> site is a completely bare-bones WordPress build with custom post templates designed to make adding more galleries a snap. Features: responsive design, minimal &amp; clean lightbox styling, and social media links.</p>   
 		</div>
 	</a> -->
-	<a href="https://www.pccbridge.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="The Bridge: PCC's Student Newspaper">
+	<!-- <a href="https://www.pccbridge.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="The Bridge: PCC's Student Newspaper">
 		<img src="images/bridge.jpg" alt="Ashley Owen Photo">
 		<div class="overlay">
 			<h2 class="h-on-hover">PCC's The Bridge</h2>
 			<p class="p-on-hover"><em>The Bridge:</em> the student newspaper of Portland Community College (PCC). The WordPress site is updated each term. Legacy documentation and a child theme provide future stability as new editors work on the project. #givingback<span class="sign-off">-30-</span></p>   
 		</div>
-	</a>
+	</a> -->
 	<a href="" target="_blank" rel="nofollow noopener" class="overlay-text" title="Helper Honey Logo">
 		<img src="images/beestie-circle.png" alt="Helper Honey Logo">
 		<div class="overlay">
