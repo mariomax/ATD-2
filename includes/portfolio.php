@@ -32,14 +32,14 @@
 		<img src="images/goodfoot.jpg" alt="The Goodfoot">
 		<div class="overlay">
 			<h2 class="h-on-hover">The Goodfoot</h2>
-			<p class="p-on-hover">Serving SE Portland since 2001, The Goodfoot is a neighborhood staple. Live music &amp; DJs, great food, full bar, pool &amp; pinball, and daily happy hour. The site features months of music listings, the food menu, and art show updates - all in a mobile friendly format.</p>   
+			<p class="p-on-hover">Serving SE Portland since 2001, The Goodfoot showcases live music &amp; DJs, great food, a full bar, pool &amp; pinball, plus daily happy hour. The site displays months of music listings and the menu in a mobile friendly format.</p>   
 		</div>
 	</a>
 	<a href="https://www.vivid-element.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Vivid Element's clothing line">
 		<img src="images/vivid-element-card.jpg" alt="Vivid Element">
 		<div class="overlay">
 			<h2 class="h-on-hover">Vivid Element</h2>
-			<p class="p-on-hover">the student newspaper of Portland Community College (PCC). The WordPress site is updated each term. Legacy documentation and a child theme provide future stability as new editors work on the project.</p>   
+			<p class="p-on-hover">Find eco-friendly slow fashion handmade in NE Portland, OR. Each garment is crafted with care from sustainable materials. The site features a lookbook, blog entries, social media feeds, and the 2019 Fall &amp; Winter line.</p>
 		</div>
 	</a>
 	<a href="https://www.dmgn.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="DMG North: Innovative HVAC Solutions">
@@ -60,7 +60,7 @@
 		<img src="images/saucy-card.jpg" alt="Saucy Jewelry | Alpine, Oregon">
 		<div class="overlay">
 			<h2 class="h-on-hover">Saucy Jewelry</h2>
-			<p class="p-on-hover">The styling on Elisa's site allows the jewelry to shine - literally. The minimal color scheme comes from the natural backdrops in her photos. The eCommerce shop features over 100 handmade items: rings, pendants, earrings and bracelets. Most of these have variations - finish, size, gemstone selection, etc. The visitor picks their piece...</p>   
+			<p class="p-on-hover">The styling on Elisa's site allows the jewelry to shine - literally. The minimal color scheme comes from the natural backdrops. The eCommerce shop has 100s of handmade items: rings, pendants, earrings &amp; bracelets. Most have variations in finish, size, gemstone selection, etc.</p>   
 		</div>
 	</a>
 	<a href="https://leathaconsulting.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Leatha Consulting LLC">
@@ -102,7 +102,7 @@
 		<img src="images/your-project.jpg" alt="Google audit on Anchor Tag Design">
 		<div class="overlay">
 			<h2 class="h-on-hover">Your Project...</h2>
-			<p class="p-on-hover">Let's get your web project started. Are you looking for a simple online business card or an eCommerce shop? Both are options... I focus on a critical, often overlooked factor of web presence: the site’s visitors. Other metrics are measurable (see graphic).</p>   
+			<p class="p-on-hover">Let's get your project started. Are you looking for a simple online business card or an eCommerce shop? Both are options... I focus on a critical, often overlooked factor of web presence: the site’s visitors. Other metrics are measurable (see graphic).</p>   
 		</div>
 	</a>
 </section>
