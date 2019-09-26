@@ -63,11 +63,11 @@
 			<p class="p-on-hover">The styling on Elisa's site allows the jewelry to shine - literally. The minimal color scheme comes from the natural backdrops. The eCommerce shop has 100s of handmade items: rings, pendants, earrings &amp; bracelets. Most have variations in finish, size, gemstone selection, etc.</p>   
 		</div>
 	</a>
-	<a href="https://leathaconsulting.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Leatha Consulting LLC">
-		<img src="images/leatha-consulting.jpg" alt="Leatha Consulting LLC | Digital Forensics">
+	<a href="https://www.kitchentablemagazine.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="Kitchen Table Magazine">
+		<img src="images/ktm-card.jpg" alt="Kitchen Table Magazine Kickstarter">
 		<div class="overlay">
-			<h2 class="h-on-hover">Leatha Consulting LLC</h2> 
-			<p class="p-on-hover">This company specializes in professional eDiscovery Consulting and Digital Forensics. They wanted a site that's clean, fast and to-the-point. WordPress provides that and makes it easy to add more pages / content as they grow.</p>   
+			<h2 class="h-on-hover">Kitchen Table Magazine</h2>
+			<p class="p-on-hover">A new print and digital publication connecting adventurous souls, curious cooks, and enthusiastic eaters with talented writers, artists, cartoonists, and photographers who explore not only the how-to’s of cooking, but the why’s of eating. A WordPress blog &amp; shop.</p>   
 		</div>
 	</a>
 	<a href="http://www.beulahlandpdx.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="Beulahland">
@@ -77,11 +77,11 @@
 			<p class="p-on-hover">Beulahland is a unique, family-owned, old-school Portland restaurant and lounge. This responsive WordPress site features blog categories for publishing fresh content and a built-in social media sidebar.</p>   
 		</div>
 	</a>
-	<a href="https://www.kitchentablemagazine.com" target="_blank" rel="nofollow noopener" class="overlay-text" title="Kitchen Table Magazine">
-		<img src="images/ktm-card.jpg" alt="Kitchen Table Magazine Kickstarter">
+	<a href="https://leathaconsulting.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Leatha Consulting LLC">
+		<img src="images/leatha-consulting.jpg" alt="Leatha Consulting LLC | Digital Forensics">
 		<div class="overlay">
-			<h2 class="h-on-hover">Kitchen Table Magazine</h2>
-			<p class="p-on-hover">A new print and digital publication connecting adventurous souls, curious cooks, and enthusiastic eaters with talented writers, artists, cartoonists, and photographers who explore not only the how-to’s of cooking, but the why’s of eating. A WordPress blog &amp; shop.</p>   
+			<h2 class="h-on-hover">Leatha Consulting LLC</h2> 
+			<p class="p-on-hover">This company specializes in professional eDiscovery Consulting and Digital Forensics. They wanted a site that's clean, fast and to-the-point. WordPress provides that and makes it easy to add more pages / content as they grow.</p>   
 		</div>
 	</a>
 	<a href="https://www.ashleyowenphoto.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Ashley Owen Photo">
@@ -98,11 +98,11 @@
 			<p class="p-on-hover">Raw, full spectrum CBD grown in Oregon's beautiful Willamette Valley. "White label" CBD honey sticks, beeswax &amp; soy candles, and beeswax natural food wraps. Here's the logo - site to follow soon...</p>
 		</div>
 	</a>
-	<a href="https://www.anchortagdesign.com/contact/" class="overlay-text" title="Your Project">
-		<img src="images/your-project.jpg" alt="Google audit on Anchor Tag Design">
+	<a href="https://kathrynwelshyoga.com/" target="_blank" rel="nofollow noopener" class="overlay-text" title="Kat Welsh Yoga">
+		<img src="images/kat-yoga-card.jpg" alt="Kathryn Welsh - yoga instructor">
 		<div class="overlay">
-			<h2 class="h-on-hover">Your Project...</h2>
-			<p class="p-on-hover">Let's get your project started. Are you looking for a simple online business card or an eCommerce shop? Both are options... I focus on a critical, often overlooked factor of web presence: the site’s visitors. Other metrics are measurable (see graphic).</p>   
+			<h2 class="h-on-hover">Kat Welsh Yoga</h2>
+			<p class="p-on-hover">Kathryn Welsh is a recently certified yoga instructor practicing and giving classes in Portland, OR. Her mobile friendly site has a blog, schedule, contact info, and social media feeds. Namaste</p>   
 		</div>
 	</a>
 </section>
