@@ -168,12 +168,13 @@ button a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: flex-end;
-  align-items: flex-end;
   text-align: center;
 }
 .header-text .titles {
-  padding: 0 2rem 5rem;
+  padding: 65vh 2rem 0;
 }
 .header-text h1 {
   color: #FFF;
@@ -438,7 +439,10 @@ footer p {
   text-align: center;
 }
 footer h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   text-align: center;
 }
@@ -517,22 +521,11 @@ footer .copyright {
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
-/* #################### Media Query for 380px; #################### */
-@media (min-width: 380px) {
-  .header-text .titles {
-    padding: 0 2rem 4rem;
-  }
-}
 /* #################### Media Query for 600px; #################### */
 @media (min-width: 600px) {
   /* Navigation */
   .top-nav {
     height: 4rem;
-  }
-  /* Hero area */
-  .hero-area img {
-    height: auto;
-    width: 100%;
   }
   /* Intro section */
   .intro {
@@ -630,7 +623,7 @@ footer .copyright {
     padding-top: 64px;
   }
   .header-text .titles {
-    padding: 2rem;
+    padding: 75vh 2rem 0;
   }
   /* Intro section */
   .intro {
@@ -766,8 +759,15 @@ footer .copyright {
     padding: 3rem 1rem;
   }
   .thumbs .overlay {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: absolute;
     top: 0;
@@ -838,6 +838,14 @@ footer .copyright {
 }
 /* #################### Media Query for 1200px; #################### */
 @media (min-width: 1200px) {
+  /* Hero area */
+  .hero-area img {
+    padding-top: 64px;
+    height: auto;
+  }
+  .header-text .titles {
+    padding: 75vh 5rem 0;
+  }
   .intro {
     max-width: 85%;
     margin-left: auto;

@@ -40,3 +40,21 @@ $('#nav-link').click(function() {
 	$('#overlay').removeClass('nav-active');
 	$('#toggle').toggleClass('toggle-active');
 });
+
+// Edited from codepan @ https://jsfiddle.net/3gLffpjw/2/
+
+$(document).ready(function(){
+	$('.hero-area').css('height', $(window).height());
+});
+
+$(window).resize(function(){
+	$('.hero-area').css('height', $(window).height());
+});
+
+$(document).ready(function(){
+	$('.hero-bg').css('height', $(window).height());
+});
+
+$(window).resize(function(){
+	$('.hero-bg').css('height', $(window).height());
+});

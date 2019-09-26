@@ -53,7 +53,7 @@
 			"https://www.anchortagdesign.com/images/atd-logo-4x3.png",
 			"https://www.anchortagdesign.com/images/atd-logo-16x9.png"
 		],
-		"@id": "https://www.anchortagdesign.com/",
+		"@id": "https://anchortagdesign.com/",
 		"name": "Anchor Tag Design",
 		"address": {
 			"@type": "PostalAddress",
@@ -68,7 +68,7 @@
 			"latitude": 45.5585520,
 			"longitude": -122.6298890
 		},
-		"url": "https://www.anchortagdesign.com",
+		"url": "https://anchortagdesign.com",
 		"telephone": "+15033513640",
 		"openingHoursSpecification": [
 			{
