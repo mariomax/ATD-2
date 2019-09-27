@@ -16,7 +16,7 @@
 				<a href="web-tools/index.php">Web Tools<br /><span class="sub-nav">The TL; DR of Web Dev</span></a>
 			</li>
 			<li>
-				<a href="#footer" data-value="footer">Contact</a>
+				<a href="#footer" data-value="footer" id="foot-link">Contact</a>
 			</li>
 		</ul>
 	</nav>

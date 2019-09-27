@@ -41,6 +41,11 @@ $('#nav-link').click(function() {
 	$('#toggle').toggleClass('toggle-active');
 });
 
+$('#foot-link').click(function() {
+	$('#overlay').removeClass('nav-active');
+	$('#toggle').toggleClass('toggle-active');
+});
+
 // Edited from codepan @ https://jsfiddle.net/3gLffpjw/2/
 
 $(document).ready(function(){
