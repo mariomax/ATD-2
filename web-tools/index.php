@@ -64,7 +64,7 @@
 		<?php include '../includes/header.inc.php'; ?>
 		<?php include '../includes/tools.php'; ?>
 		<?php include '../includes/process.php'; ?>
-		<?php include '../includes/footer.php'; ?>
+		<?php include '../includes/footer.inc.php'; ?>
 
 		<script type="text/javascript" src='../js/main.js'></script>
 		<script src="//cdn.jsdelivr.net/jquery.lazyloadxt/1.0.0/jquery.lazyloadxt.min.js"></script>

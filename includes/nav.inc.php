@@ -19,7 +19,7 @@
 				<a href="../web-tools/index.php">Web Tools<br /><span class="sub-nav">The TL; DR of Web Dev</span></a>
 			</li>
 			<li>
-				<a href="../contact/index.php">Contact</a>
+				<a href="#footer" data-value="footer">Contact</a>
 			</li>
 		</ul>
 	</nav>

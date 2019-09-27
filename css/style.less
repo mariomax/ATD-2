@@ -534,8 +534,12 @@ footer {
         justify-content: space-around;
     text-align: center;
 
+    #linkDiv {
+      padding-bottom: .5rem;
+    }
     a {
       color: @white;
+      text-decoration: none;
 
       &:hover {
         color: @orange;
@@ -561,15 +565,11 @@ footer {
   }
 
   .social {
-    padding: 0.7rem;
+    padding: 0.7rem 4rem;
   }
 
   .address {
     padding: 0.7rem;
-
-    h5 {
-      display: none;
-    }
   }
 
   .copyright {
@@ -861,6 +861,7 @@ footer {
 
     .icon {
       img {
+        border-radius: 5px;
         display: grid;
         width: 5rem;
       }

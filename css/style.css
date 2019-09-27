@@ -446,8 +446,12 @@ footer h4 {
   justify-content: space-around;
   text-align: center;
 }
+footer h4 #linkDiv {
+  padding-bottom: .5rem;
+}
 footer h4 a {
   color: #FFF;
+  text-decoration: none;
 }
 footer h4 a:hover {
   color: #EB4625;
@@ -465,13 +469,10 @@ footer .icon img {
   display: none;
 }
 footer .social {
-  padding: 0.7rem;
+  padding: 0.7rem 4rem;
 }
 footer .address {
   padding: 0.7rem;
-}
-footer .address h5 {
-  display: none;
 }
 footer .copyright {
   font-size: 1.5rem;
@@ -702,6 +703,7 @@ footer .copyright {
     grid-area: icon;
   }
   .footer-grid .icon img {
+    border-radius: 5px;
     display: grid;
     width: 5rem;
   }

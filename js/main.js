@@ -58,3 +58,15 @@ $(document).ready(function(){
 $(window).resize(function(){
 	$('.hero-bg').css('height', $(window).height());
 });
+
+
+var linkdiv = document.getElementById("linkDiv");
+var aTag = document.createElement('a');
+var user = 'mario';
+var site = 'anchortagdesign.com';
+aTag.setAttribute('href',"mailto:" + user + '@' + site);
+aTag.setAttribute('target',"_blank");
+aTag.innerText = "mario@anchortagdesign.com";
+linkdiv.appendChild(aTag);
+// document.write('<a href=\"mailto:' + user + '@' + site + '\">');
+// document.write(user + '@' + site + '</a>');

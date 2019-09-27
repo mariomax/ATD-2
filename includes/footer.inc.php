@@ -3,7 +3,7 @@
 	<div class="footer-grid">
 		
 		<div class="icon">
-			<img src="images/square-logo.png" alt="anchor tag design logo">
+			<img src="../images/square-logo.png" alt="anchor tag design logo">
 		</div>
 
 		<section class="social">
