@@ -15,7 +15,7 @@ $(".navbar a").click(function () {
 		scrollTop:$("#" + $(this).data('value')).offset().top - 50 }, 1000)
 });
 
-$("button a").click(function () {
+$(".cta-button a").click(function () {
 	if ($(window).width() < 768) {
 		$("body,html").animate({
 			scrollTop:$("#" + $(this).data('value')).offset().top - 50 }, 1000)
