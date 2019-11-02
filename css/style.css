@@ -844,6 +844,7 @@ footer .copyright {
   .hero-area img {
     padding-top: 64px;
     height: auto;
+    width: 100%;
   }
   .header-text .titles {
     padding: 75vh 5rem 0;
